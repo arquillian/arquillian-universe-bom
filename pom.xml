@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-    <parent>
-        <groupId>org.jboss</groupId>
-        <artifactId>jboss-parent</artifactId>
-        <version>14</version>
-        <relativePath />
-    </parent>
-
     <!-- Model Information -->
     <modelVersion>4.0.0</modelVersion>
 
     <!-- Artifact Information -->
-    <groupId>org.arquillian</groupId>
+    <groupId>org.arquillian.universe</groupId>
     <artifactId>arquillian-universe-parent</artifactId>
     <version>1.0.0.Alpha1-SNAPSHOT</version>
-    <modules>
-        <module>arquillian-universe</module>
-    </modules>
     <packaging>pom</packaging>
+
     <name>Arquillian Universe Aggregator</name>
     <url>http://arquillian.org</url>
     <description>Arquillian Universe</description>
@@ -52,7 +43,23 @@
     </developers>
 
     <properties>
-
+        <version.arquillian_core>1.1.9.Final</version.arquillian_core>
+        <version.arquillian_drone>2.0.0.Alpha5</version.arquillian_drone>
+        <version.arquillian_graphene>2.1.0.Alpha2</version.arquillian_graphene>
+        <version.arquillian_persistence>1.0.0.Alpha7</version.arquillian_persistence>
+        <version.arquillian_chameleon>1.0.0.Alpha5</version.arquillian_chameleon>
+        <version.shrinkwrap_resolvers>2.2.0</version.shrinkwrap_resolvers>
+        <version.selenium>2.47.1</version.selenium>
     </properties>
 
+    <modules>
+        <module>arquillian-core</module>
+        <module>arquillian-junit</module>
+        <module>arquillian-universe</module>
+        <module>arquillian-drone</module>
+        <module>arquillian-graphene</module>
+        <module>arquillian-persistence</module>
+        <module>arquillian-chameleon</module>
+        <module>test</module>
+    </modules>
 </project>

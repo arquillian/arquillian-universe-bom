@@ -11,8 +11,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arquillian-drone</artifactId>
-    <name>Arquillian Drone</name>
+    <artifactId>arquillian-chameleon</artifactId>
+    <name>Arquillian Chameleon</name>
     <packaging>pom</packaging>
 
     <dependencyManagement>
@@ -25,18 +25,9 @@
                 <type>pom</type>
             </dependency>
             <dependency>
-                <groupId>org.jboss.arquillian.selenium</groupId>
-                <artifactId>selenium-bom</artifactId>
-                <version>${version.selenium}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.arquillian.extension</groupId>
-                <artifactId>arquillian-drone-bom</artifactId>
-                <version>${version.arquillian_drone}</version>
-                <type>pom</type>
-                <scope>import</scope>
+                <groupId>org.arquillian.container</groupId>
+                <artifactId>arquillian-container-chameleon</artifactId>
+                <version>${version.arquillian_chameleon}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -49,9 +40,8 @@
             <type>pom</type>
         </dependency>
         <dependency>
-            <groupId>org.jboss.arquillian.extension</groupId>
-            <artifactId>arquillian-drone-webdriver-depchain</artifactId>
-            <type>pom</type>
+            <groupId>org.arquillian.container</groupId>
+            <artifactId>arquillian-container-chameleon</artifactId>
         </dependency>
     </dependencies>
 </project>
