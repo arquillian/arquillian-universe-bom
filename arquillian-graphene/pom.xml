@@ -11,32 +11,24 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arquillian-drone</artifactId>
-    <name>Arquillian Drone</name>
+    <artifactId>arquillian-graphene</artifactId>
+    <name>Arquillian Graphene</name>
     <packaging>pom</packaging>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
-                <artifactId>arquillian-core</artifactId>
+                <artifactId>arquillian-drone</artifactId>
                 <version>${project.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
             <dependency>
-                <groupId>org.jboss.arquillian.selenium</groupId>
-                <artifactId>selenium-bom</artifactId>
-                <version>${version.selenium}</version>
+                <groupId>org.jboss.arquillian.graphene</groupId>
+                <artifactId>graphene-webdriver</artifactId>
+                <version>${version.arquillian_graphene}</version>
                 <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.arquillian.extension</groupId>
-                <artifactId>arquillian-drone-bom</artifactId>
-                <version>${version.arquillian_drone}</version>
-                <type>pom</type>
-                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -44,13 +36,13 @@
     <dependencies>
         <dependency>
             <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-core</artifactId>
+            <artifactId>arquillian-drone</artifactId>
             <version>${project.version}</version>
             <type>pom</type>
         </dependency>
         <dependency>
-            <groupId>org.jboss.arquillian.extension</groupId>
-            <artifactId>arquillian-drone-webdriver-depchain</artifactId>
+            <groupId>org.jboss.arquillian.graphene</groupId>
+            <artifactId>graphene-webdriver</artifactId>
             <type>pom</type>
         </dependency>
     </dependencies>
