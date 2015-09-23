@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>arquillian-universe</artifactId>
+        <groupId>org.arquillian</groupId>
+        <version>1.0.0.Alpha1-SNAPSHOT</version>
+        <relativePath>../arquillian-universe/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <graphene-webdriver.version>2.1.0.Alpha2</graphene-webdriver.version>
+    </properties>
+
+    <artifactId>arquillian-drone</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jboss.arquillian.graphene</groupId>
+            <artifactId>graphene-webdriver</artifactId>
+            <version>${graphene-webdriver.version}</version>
+            <type>pom</type>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
