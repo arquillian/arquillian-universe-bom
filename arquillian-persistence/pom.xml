@@ -11,8 +11,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arquillian-drone</artifactId>
-    <name>Arquillian Drone</name>
+    <artifactId>arquillian-persistence</artifactId>
+    <name>Arquillian Persistence</name>
     <packaging>pom</packaging>
 
     <dependencyManagement>
@@ -25,18 +25,9 @@
                 <type>pom</type>
             </dependency>
             <dependency>
-                <groupId>org.jboss.arquillian.selenium</groupId>
-                <artifactId>selenium-bom</artifactId>
-                <version>${version.selenium}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
                 <groupId>org.jboss.arquillian.extension</groupId>
-                <artifactId>arquillian-drone-bom</artifactId>
-                <version>${version.arquillian_drone}</version>
-                <type>pom</type>
-                <scope>import</scope>
+                <artifactId>arquillian-persistence-dbunit</artifactId>
+                <version>${version.arquillian_persistence}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -50,8 +41,7 @@
         </dependency>
         <dependency>
             <groupId>org.jboss.arquillian.extension</groupId>
-            <artifactId>arquillian-drone-webdriver-depchain</artifactId>
-            <type>pom</type>
+            <artifactId>arquillian-persistence-dbunit</artifactId>
         </dependency>
     </dependencies>
 </project>
