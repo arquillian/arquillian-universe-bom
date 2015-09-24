@@ -45,6 +45,13 @@
 
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-testng</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
                 <artifactId>arquillian-drone</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
@@ -53,6 +60,13 @@
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
                 <artifactId>arquillian-graphene</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-warp</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
             </dependency>
