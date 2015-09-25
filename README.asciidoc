@@ -1,7 +1,7 @@
 == Arquillian Universe unified dependencies
 
-The Arquillian Universe BOM is a 'Bill of Matterial' Maven POM file collection
-that make up a module stack that strach the whole Arquillian Universe.
+The Arquillian Universe BOM is a 'Bill of Material' Maven POM file collection
+that make up a module stack that stretch across the whole Arquillian Universe.
 
 This project aim to fulfill two main requirements:
 
