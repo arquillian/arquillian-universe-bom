@@ -58,6 +58,7 @@
     <modules>
         <module>arquillian-core</module>
         <module>arquillian-junit</module>
+        <module>arquillian-junit-standalone</module>
         <module>arquillian-testng</module>
         <module>arquillian-universe</module>
         <module>arquillian-drone</module>
@@ -65,9 +66,11 @@
         <module>arquillian-warp</module>
         <module>arquillian-persistence</module>
         <module>arquillian-chameleon</module>
-        <module>test</module>
-        <module>arquillian-junit-standalone</module>
-        <module>arquillian-cube</module>
+        <module>arquillian-cube-core</module>
+        <module>arquillian-cube-docker</module>
+        <module>arquillian-cube-openshift</module>
+        <module>arquillian-cube-containerless</module>
         <module>arquillian-cukes</module>
+        <module>test</module>
     </modules>
 </project>

@@ -91,6 +91,25 @@
                 <type>pom</type>
             </dependency>
 
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-cube-docker</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-cube-openshift</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-cube-containerless</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+
         </dependencies>
 
     </dependencyManagement>
