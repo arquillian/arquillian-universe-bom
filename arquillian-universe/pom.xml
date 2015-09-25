@@ -42,6 +42,12 @@
                 <version>${project.version}</version>
                 <type>pom</type>
             </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-junit-standalone</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
 
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
