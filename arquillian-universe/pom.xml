@@ -64,6 +64,13 @@
 
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-cukes</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
                 <artifactId>arquillian-drone</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
