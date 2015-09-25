@@ -359,6 +359,36 @@ NOTE: you don't need to add `arquillian-spring` or `arquillian-warp` dependency 
 
 The Spring framework core and modules of choice.
 
+==== Arquillian Byteman
+
+Byteman integration for the Arquillian Project
+
+Mocking 2.0, Runtime bytecode manipulation in Integration tests.
+
+Documentation: https://github.com/arquillian/arquillian-extension-byteman
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-byteman/artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.jboss.byteman</groupId>
+    <artifactId>byteman-submit</artifactId>
+    <version>${version.byteman}</version>
+    <scope>test</scope>
+</dependency>
+----
+
 ==== Arquillian Cube Docker
 
 Arquillian Cube is an Arquillian extension that can be used to manager Docker containers from Arquillian.
