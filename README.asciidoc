@@ -293,7 +293,7 @@ Documentation: https://github.com/arquillian/arquillian-cube#containerless-serve
 
 ==== Arquillian Chameleon Container
 
-Arquillian Cube is an Arquillian exHave you ever faced an issue that switching between container implementations isn’t that easy?
+Have you ever faced an issue that switching between container implementations isn’t that easy?
 
 Testing against several containers (JBoss AS / JBoss EAP / WildFly) or even switching between different modes (Managed, Remote, Embedded) may result in bloated pom.xml.
 
