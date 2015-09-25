@@ -199,6 +199,8 @@ Documentation: https://github.com/arquillian/arquillian-graphene
 </dependency>
 ----
 
+NOTE: you don't need to add `arquillian-drone` dependency since it is automatically added when using `arquillian-graphene`.
+
 ==== Arquillian Warp
 
 Warp fills the void between client-side and server-side testing.
