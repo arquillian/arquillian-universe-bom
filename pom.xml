@@ -60,6 +60,7 @@
         <module>arquillian-junit</module>
         <module>arquillian-junit-standalone</module>
         <module>arquillian-testng</module>
+        <module>arquillian-testng-standalone</module>
         <module>arquillian-universe</module>
         <module>arquillian-drone</module>
         <module>arquillian-graphene</module>
