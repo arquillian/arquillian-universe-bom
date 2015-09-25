@@ -1,0 +1,310 @@
+== Arquillian Universe unified dependencies
+
+The Arquillian Universe BOM is a 'Bill of Matterial' Maven POM file collection
+that make up a module stack that strach the whole Arquillian Universe.
+
+This project aim to fulfill two main requirements:
+
+. Simplify the 'Getting Started' experience
+. Unify naming and versions
+
+=== Usage
+
+Include the following snippet in your POM xml file:
+
+[source, xml]
+----
+<properties>
+    <version.arquillian_universe>1.0.0.Alpha1</version.arquillian_universe>
+</properties>
+
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.arquillian</groupId>
+            <artifactId>arquillian-universe</artifactId>
+            <version>${version.arquillian_universe}</version>
+            <scope>import</scope>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+----
+
+Then include the individual modules as you see fit, by simply depending on the unified pom name:
+
+[source, xml]
+----
+<dependencies>
+    <dependency>
+        <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-junit</artifactId>
+        <scope>test</scope>
+        <type>pom</type>
+    </dependency>
+</dependencies>
+----
+
+=== Available modules
+
+==== JUnit
+
+The JUnit Container integration.
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-junit</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>${version.junit}</version>
+    <scope>test</scope>
+</dependency>
+----
+
+==== JUnit Standalone
+
+The JUnit Standalone integration.
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-junit-standalone</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>${version.junit}</version>
+    <scope>test</scope>
+</dependency>
+----
+
+==== TestNG
+
+The TestNG Container integration.
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-testng</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>${version.testng}</version>
+    <scope>test</scope>
+</dependency>
+----
+
+==== TestNG Standalone
+
+The TestNG Standalone integration.
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-testng-standalone</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>${version.testng}</version>
+    <scope>test</scope>
+</dependency>
+----
+
+==== Cuckes in Space
+
+Cukes in Space! allows you to deploy and run Cucumber features in the application server of your choice using the Arquillian test framework.
+
+Documentation: https://github.com/cukespace/cukespace
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cuckes</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Drone
+
+The Arquillian Drone provides a simple way how to write functional tests for an application with a web-based user interface. Arquillian Drone brings the power of WebDriver into the Arquillian framework. WebDriver provides a language how to communicate with a browser, like filling the forms, navigating on the pages and validating their content.
+
+Documentation: https://github.com/arquillian/arquillian-extension-drone
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-drone</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Graphene
+
+Graphene project is designed as set of extensions for Selenium WebDriver project focused on rapid development and usability in Java environment.
+
+Documentation: https://github.com/arquillian/arquillian-graphene
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-graphene</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Warp
+
+Warp fills the void between client-side and server-side testing.
+
+This extension allow you to write client-side test which asserts server-side logic.
+
+Documentation: https://github.com/arquillian/arquillian-extension-warp
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-warp</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Persistence
+
+Arquillian Persistence Extension was created to help you writing tests where persistence layer is involved. Inspired by great framework called Unitils, it brings bunch of annotations to help you deal with the underlying data storage.
+
+Documentation: https://github.com/arquillian/arquillian-extension-persistence
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-persistence</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Cube Docker
+
+Arquillian Cube is an Arquillian extension that can be used to manager Docker containers from Arquillian.
+
+With this extension you can start a Docker container with a server installed, deploy the required deployable file within it and execute Arquillian tests.
+
+The key point here is that if Docker is used as deployable platform in production, your tests are executed in a the same container as it will be in production, so your tests are even more real than before.
+
+But it also lets you start a container with every required service like database, mail server, …​ and instead of stubbing or using fake objects your tests can use real servers.
+
+Documentation: https://github.com/arquillian/arquillian-cube
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cube-docker</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Cube OpenShift
+
+Arquillian Cube is an Arquillian extension that can be used to manager Docker containers from Arquillian.
+
+Documentation: https://github.com/arquillian/arquillian-cube
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cube-openshift</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Cube Containerless
+
+Arquillian Cube is an Arquillian extension that can be used to manager Docker containers from Arquillian.
+
+The Containerless container integrates Docker images as normal Arquillian Containers without the need for any Java EE style server as a target.
+
+Documentation: https://github.com/arquillian/arquillian-cube#containerless-server-and-docker
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cube-containerless</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Chameleon Container
+
+Arquillian Cube is an Arquillian exHave you ever faced an issue that switching between container implementations isn’t that easy?
+
+Testing against several containers (JBoss AS / JBoss EAP / WildFly) or even switching between different modes (Managed, Remote, Embedded) may result in bloated pom.xml.
+
+Chameleon Containers are able to quickly adopt to your needs without too much hassle.
+
+Documentation: https://github.com/arquillian/arquillian-container-chameleon
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-chameleon</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
