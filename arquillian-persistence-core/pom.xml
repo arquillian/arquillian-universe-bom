@@ -11,8 +11,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arquillian-persistence</artifactId>
-    <name>Arquillian Persistence</name>
+    <artifactId>arquillian-persistence-core</artifactId>
+    <name>Arquillian Persistence Core</name>
     <packaging>pom</packaging>
 
     <dependencyManagement>
@@ -25,18 +25,15 @@
                 <type>pom</type>
             </dependency>
             <dependency>
-                <groupId>org.arquillian.universe</groupId>
-                <artifactId>arquillian-transaction-jta</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>org.arquillian.universe</groupId>
-                <artifactId>arquillian-persistence-core</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
+                <groupId>org.jboss.arquillian.extension</groupId>
+                <artifactId>arquillian-persistence-dbunit</artifactId>
+                <version>${version.arquillian_persistence}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.jboss.arquillian.extension</groupId>
+                        <artifactId>arquillian-transaction-jta</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -49,16 +46,8 @@
             <type>pom</type>
         </dependency>
         <dependency>
-            <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-transaction-jta</artifactId>
-            <version>${project.version}</version>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-persistence-core</artifactId>
-            <version>${project.version}</version>
-            <type>pom</type>
+            <groupId>org.jboss.arquillian.extension</groupId>
+            <artifactId>arquillian-persistence-dbunit</artifactId>
         </dependency>
     </dependencies>
 </project>

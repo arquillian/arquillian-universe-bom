@@ -50,6 +50,7 @@
         <version.arquillian_warp>1.0.0.Alpha7</version.arquillian_warp>
         <version.arquillian_transaction>1.0.1.Final</version.arquillian_transaction>
         <version.arquillian_persistence>1.0.0.Alpha7</version.arquillian_persistence>
+        <version.arquillian_spring>1.1.0.Alpha1</version.arquillian_spring>
         <version.arquillian_chameleon>1.0.0.Alpha5</version.arquillian_chameleon>
         <version.arquillian_cukes_in_space>1.6.1</version.arquillian_cukes_in_space>
         <version.shrinkwrap_resolvers>2.2.0</version.shrinkwrap_resolvers>
@@ -69,7 +70,12 @@
         <module>arquillian-warp-jsf</module>
         <module>arquillian-transaction-core</module>
         <module>arquillian-transaction-jta</module>
+        <module>arquillian-persistence-core</module>
         <module>arquillian-persistence</module>
+        <module>arquillian-spring</module>
+        <module>arquillian-spring-transaction</module>
+        <module>arquillian-spring-persistence</module>
+        <module>arquillian-spring-warp</module>
         <module>arquillian-chameleon</module>
         <module>arquillian-cube-core</module>
         <module>arquillian-cube-docker</module>
@@ -78,4 +84,5 @@
         <module>arquillian-cukes</module>
         <module>test</module>
     </modules>
+
 </project>

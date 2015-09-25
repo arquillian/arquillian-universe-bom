@@ -113,6 +113,31 @@
 
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-spring</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-spring-transaction</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-spring-persistence</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-spring-warp</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
                 <artifactId>arquillian-chameleon</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>

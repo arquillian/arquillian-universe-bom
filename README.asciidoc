@@ -271,6 +271,84 @@ Documentation: https://github.com/arquillian/arquillian-extension-persistence
 
 NOTE: you don't need to add `arquillian-transaction-jta` dependency since it is automatically added when using `arquillian-persistence`.
 
+==== Arquillian Spring
+
+Documentation: https://github.com/arquillian/arquillian-extension-spring
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-spring</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+The Spring framework core and modules of choice.
+
+==== Arquillian Spring Transaction
+
+Documentation: https://github.com/arquillian/arquillian-extension-spring
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-spring-transaction</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+NOTE: you don't need to add `arquillian-spring` or `arquillian-transaction` dependency since it is automatically added when using `arquillian-spring-transaction`.
+
+===== Additional required dependencies
+
+The Spring framework core and modules of choice.
+
+==== Arquillian Spring Persistence
+
+Documentation: https://github.com/arquillian/arquillian-extension-spring
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-spring-persistence</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+NOTE: you don't need to add `arquillian-spring` or `arquillian-persistence` dependency since it is automatically added when using `arquillian-spring-persistence`.
+
+===== Additional required dependencies
+
+The Spring framework core and modules of choice.
+
+==== Arquillian Spring Warp
+
+Documentation: https://github.com/arquillian/arquillian-extension-spring
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-spring-warp</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+NOTE: you don't need to add `arquillian-spring` or `arquillian-warp` dependency since it is automatically added when using `arquillian-spring-warp`.
+
+===== Additional required dependencies
+
+The Spring framework core and modules of choice.
+
 ==== Arquillian Cube Docker
 
 Arquillian Cube is an Arquillian extension that can be used to manager Docker containers from Arquillian.

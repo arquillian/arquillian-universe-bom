@@ -11,22 +11,15 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arquillian-persistence</artifactId>
-    <name>Arquillian Persistence</name>
+    <artifactId>arquillian-spring-persistence</artifactId>
+    <name>Arquillian Spring Persistence</name>
     <packaging>pom</packaging>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
-                <artifactId>arquillian-core</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>org.arquillian.universe</groupId>
-                <artifactId>arquillian-transaction-jta</artifactId>
+                <artifactId>arquillian-spring</artifactId>
                 <version>${project.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
@@ -38,19 +31,18 @@
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
+            <dependency>
+                <groupId>org.jboss.arquillian.extension</groupId>
+                <artifactId>arquillian-persistence-spring</artifactId>
+                <version>${version.arquillian_spring}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <dependencies>
         <dependency>
             <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-core</artifactId>
-            <version>${project.version}</version>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-transaction-jta</artifactId>
+            <artifactId>arquillian-spring</artifactId>
             <version>${project.version}</version>
             <type>pom</type>
         </dependency>
@@ -59,6 +51,10 @@
             <artifactId>arquillian-persistence-core</artifactId>
             <version>${project.version}</version>
             <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.arquillian.extension</groupId>
+            <artifactId>arquillian-persistence-spring</artifactId>
         </dependency>
     </dependencies>
 </project>
