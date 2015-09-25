@@ -48,6 +48,7 @@
         <version.arquillian_cube>1.0.0.Alpha7</version.arquillian_cube>
         <version.arquillian_graphene>2.1.0.Alpha2</version.arquillian_graphene>
         <version.arquillian_warp>1.0.0.Alpha7</version.arquillian_warp>
+        <version.arquillian_transaction>1.0.1.Final</version.arquillian_transaction>
         <version.arquillian_persistence>1.0.0.Alpha7</version.arquillian_persistence>
         <version.arquillian_chameleon>1.0.0.Alpha5</version.arquillian_chameleon>
         <version.arquillian_cukes_in_space>1.6.1</version.arquillian_cukes_in_space>
@@ -66,6 +67,8 @@
         <module>arquillian-graphene</module>
         <module>arquillian-warp</module>
         <module>arquillian-warp-jsf</module>
+        <module>arquillian-transaction-core</module>
+        <module>arquillian-transaction-jta</module>
         <module>arquillian-persistence</module>
         <module>arquillian-chameleon</module>
         <module>arquillian-cube-core</module>
