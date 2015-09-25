@@ -22,6 +22,9 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <!-- Core -->
+
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
                 <artifactId>arquillian-core</artifactId>
@@ -35,6 +38,8 @@
                 <version>${project.version}</version>
                 <type>pom</type>
             </dependency>
+
+            <!-- Test Runners -->
 
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
@@ -69,6 +74,8 @@
                 <type>pom</type>
             </dependency>
 
+            <!-- Extensions -->
+
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
                 <artifactId>arquillian-drone</artifactId>
@@ -86,6 +93,12 @@
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
                 <artifactId>arquillian-warp</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-warp-jsf</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
             </dependency>

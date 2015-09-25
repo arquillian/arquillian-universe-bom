@@ -65,6 +65,7 @@
         <module>arquillian-drone</module>
         <module>arquillian-graphene</module>
         <module>arquillian-warp</module>
+        <module>arquillian-warp-jsf</module>
         <module>arquillian-persistence</module>
         <module>arquillian-chameleon</module>
         <module>arquillian-cube-core</module>

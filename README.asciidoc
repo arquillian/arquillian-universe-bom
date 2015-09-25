@@ -219,6 +219,24 @@ Documentation: https://github.com/arquillian/arquillian-extension-warp
 </dependency>
 ----
 
+==== Arquillian Warp JSF
+
+Warp JSF adds additional Warp capabilities to JSF requests.
+
+Documentation: https://github.com/arquillian/arquillian-extension-warp
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-warp-jsf</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+NOTE: you don't need to add `arquillian-warp` dependency since it is automatically added when using `arquillian-warp-jsf`.
+
 ==== Arquillian Persistence
 
 Arquillian Persistence Extension was created to help you writing tests where persistence layer is involved. Inspired by great framework called Unitils, it brings bunch of annotations to help you deal with the underlying data storage.
