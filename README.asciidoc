@@ -389,6 +389,24 @@ Documentation: https://github.com/arquillian/arquillian-extension-byteman
 </dependency>
 ----
 
+==== Arquillian Recorder
+
+Arquillian Recorder project brings neat reports of your Arquillian tests.
+
+Documentation: https://github.com/arquillian/arquillian-recorder/wiki/Reporter  + 
+Documentation: https://github.com/arquillian/arquillian-recorder/wiki/Screenshooter + 
+Documentation: https://github.com/arquillian/arquillian-recorder/wiki + 
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-recorder/artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
 ==== Arquillian Cube Docker
 
 Arquillian Cube is an Arquillian extension that can be used to manager Docker containers from Arquillian.
