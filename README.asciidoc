@@ -389,7 +389,7 @@ Documentation: https://github.com/arquillian/arquillian-extension-byteman
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
-    <artifactId>arquillian-byteman/artifactId>
+    <artifactId>arquillian-byteman</artifactId>
     <scope>test</scope>
     <type>pom</type>
 </dependency>
@@ -407,6 +407,36 @@ Documentation: https://github.com/arquillian/arquillian-extension-byteman
 </dependency>
 ----
 
+==== Arquillian Jacoco
+
+Automagic remote in-container code coverage
+
+Documentation: https://github.com/arquillian/arquillian-extension-jacoco
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-jacoco</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.jacoco</groupId>
+    <artifactId>org.jacoco.core</artifactId>
+    <version>${version.jacoco}</version>
+    <scope>test</scope>
+</dependency>
+----
+
+NOTE: See documentation for additional Maven configuration.
+
 ==== Arquillian Recorder
 
 Arquillian Recorder project brings neat reports of your Arquillian tests.
@@ -419,7 +449,7 @@ Documentation: https://github.com/arquillian/arquillian-recorder/wiki +
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
-    <artifactId>arquillian-recorder/artifactId>
+    <artifactId>arquillian-recorder</artifactId>
     <scope>test</scope>
     <type>pom</type>
 </dependency>

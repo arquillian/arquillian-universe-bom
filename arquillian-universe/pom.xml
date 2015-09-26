@@ -151,6 +151,13 @@
 
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-jacoco</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
                 <artifactId>arquillian-recorder</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
