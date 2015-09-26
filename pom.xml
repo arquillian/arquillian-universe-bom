@@ -68,6 +68,7 @@
         <module>arquillian-universe</module>
         <module>arquillian-drone</module>
         <module>arquillian-graphene</module>
+        <module>arquillian-graphene-recorder</module>
         <module>arquillian-warp</module>
         <module>arquillian-warp-jsf</module>
         <module>arquillian-transaction-core</module>

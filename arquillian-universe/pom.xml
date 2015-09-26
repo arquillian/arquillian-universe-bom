@@ -83,6 +83,12 @@
                 <version>${project.version}</version>
                 <type>pom</type>
             </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-graphene-recorder</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
 
             <dependency>
                 <groupId>org.arquillian.universe</groupId>

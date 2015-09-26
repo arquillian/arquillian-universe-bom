@@ -211,6 +211,24 @@ Documentation: https://github.com/arquillian/arquillian-graphene
 
 NOTE: you don't need to add `arquillian-drone` dependency since it is automatically added when using `arquillian-graphene`.
 
+==== Arquillian Graphene Recorder
+
+Browser screenshooter is an extension to Arquillian platform which provides the possibility to take screenshots of your tests. Only browser window is screened.
+
+Documentation: https://github.com/arquillian/arquillian-graphene/tree/master/extension/screenshooter
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-graphene-recorder</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+NOTE: you don't need to add `arquillian-graphene` or `arquillian-recorder` dependency since it is automatically added when using `arquillian-graphene-recorder`.
+
 ==== Arquillian Warp
 
 Warp fills the void between client-side and server-side testing.
