@@ -144,6 +144,19 @@
 
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-governor-jira</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-governor-skipper</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
                 <artifactId>arquillian-byteman</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>

@@ -511,6 +511,38 @@ Documentation: https://github.com/arquillian/arquillian-cube#containerless-serve
 </dependency>
 ----
 
+==== Arquillian Governor JIRA
+
+Arquillian Governor Extension and the implementations which use its API give you the possibility to programmatically choose what test methods of your Arquillian tests are going to be executed and what are going to be skipped by putting your custom annotations on the test methods.
+
+Documentation: https://github.com/arquillian/arquillian-governor#arquillian-jira-governor-extension
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-governor-jira</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Governor Skipper
+
+Arquillian Governor Extension and the implementations which use its API give you the possibility to programmatically choose what test methods of your Arquillian tests are going to be executed and what are going to be skipped by putting your custom annotations on the test methods.
+
+Documentation: https://github.com/arquillian/arquillian-governor#arquillian-governor-skipper-extension
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-governor-skipper</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
 ==== Arquillian Chameleon Container
 
 Have you ever faced an issue that switching between container implementations isn’t that easy?
