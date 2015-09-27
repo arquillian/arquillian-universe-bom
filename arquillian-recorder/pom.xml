@@ -28,12 +28,6 @@
                 <groupId>org.arquillian.extension</groupId>
                 <artifactId>arquillian-recorder-reporter-impl</artifactId>
                 <version>${version.arquillian_recorder}</version>
-                <exclusions> <!-- Can be removed when recorder 1.1.0.Alpha2 is released #15 -->
-                    <exclusion>
-                        <groupId>junit</groupId>
-                        <artifactId>junit</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.arquillian.extension</groupId>
