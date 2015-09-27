@@ -25,6 +25,13 @@
                 <type>pom</type>
             </dependency>
             <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-recorder-api</artifactId>
+                <version>${project.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+            <dependency>
                 <groupId>org.arquillian.extension</groupId>
                 <artifactId>arquillian-governor-skipper</artifactId>
                 <version>${version.arquillian_governor}</version>
@@ -36,6 +43,12 @@
         <dependency>
             <groupId>org.arquillian.universe</groupId>
             <artifactId>arquillian-governor-core</artifactId>
+            <version>${project.version}</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>org.arquillian.universe</groupId>
+            <artifactId>arquillian-recorder-api</artifactId>
             <version>${project.version}</version>
             <type>pom</type>
         </dependency>
