@@ -86,6 +86,7 @@
         <module>arquillian-governor-skipper</module>
         <module>arquillian-byteman</module>
         <module>arquillian-jacoco</module>
+        <module>arquillian-recorder-api</module>
         <module>arquillian-recorder</module>
         <module>arquillian-chameleon</module>
         <module>arquillian-cube-core</module>

@@ -11,8 +11,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arquillian-recorder</artifactId>
-    <name>Arquillian Recorder</name>
+    <artifactId>arquillian-recorder-api</artifactId>
+    <name>Arquillian Recorder API</name>
     <packaging>pom</packaging>
 
     <dependencyManagement>
@@ -25,25 +25,33 @@
                 <type>pom</type>
             </dependency>
             <dependency>
-                <groupId>org.arquillian.universe</groupId>
-                <artifactId>arquillian-recorder-api</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-            <dependency>
                 <groupId>org.arquillian.extension</groupId>
-                <artifactId>arquillian-recorder-reporter-impl</artifactId>
+                <artifactId>arquillian-recorder-reporter-api</artifactId>
                 <version>${version.arquillian_recorder}</version>
             </dependency>
             <dependency>
                 <groupId>org.arquillian.extension</groupId>
-                <artifactId>arquillian-recorder-screenshooter-impl-base</artifactId>
+                <artifactId>arquillian-recorder-reporter-spi</artifactId>
                 <version>${version.arquillian_recorder}</version>
             </dependency>
             <dependency>
                 <groupId>org.arquillian.extension</groupId>
-                <artifactId>arquillian-recorder-video-impl-base</artifactId>
+                <artifactId>arquillian-recorder-screenshooter-api</artifactId>
+                <version>${version.arquillian_recorder}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.extension</groupId>
+                <artifactId>arquillian-recorder-screenshooter-spi</artifactId>
+                <version>${version.arquillian_recorder}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.extension</groupId>
+                <artifactId>arquillian-recorder-video-api</artifactId>
+                <version>${version.arquillian_recorder}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.extension</groupId>
+                <artifactId>arquillian-recorder-video-spi</artifactId>
                 <version>${version.arquillian_recorder}</version>
             </dependency>
         </dependencies>
@@ -57,22 +65,28 @@
             <type>pom</type>
         </dependency>
         <dependency>
-            <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-recorder-api</artifactId>
-            <version>${project.version}</version>
-            <type>pom</type>
+            <groupId>org.arquillian.extension</groupId>
+            <artifactId>arquillian-recorder-reporter-api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.arquillian.extension</groupId>
-            <artifactId>arquillian-recorder-reporter-impl</artifactId>
+            <artifactId>arquillian-recorder-reporter-spi</artifactId>
         </dependency>
         <dependency>
             <groupId>org.arquillian.extension</groupId>
-            <artifactId>arquillian-recorder-screenshooter-impl-base</artifactId>
+            <artifactId>arquillian-recorder-screenshooter-api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.arquillian.extension</groupId>
-            <artifactId>arquillian-recorder-video-impl-base</artifactId>
+            <artifactId>arquillian-recorder-screenshooter-spi</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.arquillian.extension</groupId>
+            <artifactId>arquillian-recorder-video-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.arquillian.extension</groupId>
+            <artifactId>arquillian-recorder-video-spi</artifactId>
         </dependency>
     </dependencies>
 </project>

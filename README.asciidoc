@@ -455,6 +455,22 @@ Documentation: https://github.com/arquillian/arquillian-recorder/wiki +
 </dependency>
 ----
 
+==== Arquillian Recorder API
+
+Arquillian Recorder API is a module with only the API and SPI dependencies for Recorder. This allow you to depend on the API in test/compile scope and optionally activate the complete Arquillian Reporter module in a different profile when you want the reports generated.
+
+See Arquillian Recorder above.
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-recorder-api</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
 ==== Arquillian Cube Docker
 
 Arquillian Cube is an Arquillian extension that can be used to manager Docker containers from Arquillian.
