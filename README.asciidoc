@@ -471,6 +471,210 @@ See Arquillian Recorder above.
 </dependency>
 ----
 
+==== Arquillian REST RestEasy 2.x
+
+Arquillian REST Client Extension allows you to test your RESTful applications on the client side.
+
+Sometimes you need to test your REST app as a black box. You know the interface (the contract), you have some input and know what results you expect. For that purpose Arquillian REST Client Extension is your friend.
+
+Documentation: https://github.com/arquillian/arquillian-extension-rest/tree/master/rest-client
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-rest-resteasy2</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.jboss.resteasy</groupId>
+    <artifactId>resteasy-jaxrs</artifactId>
+    <version>${version.resteasy}</version>
+</dependency>
+----
+
+==== Arquillian REST RestEasy 3.x
+
+Arquillian REST Client Extension allows you to test your RESTful applications on the client side.
+
+Sometimes you need to test your REST app as a black box. You know the interface (the contract), you have some input and know what results you expect. For that purpose Arquillian REST Client Extension is your friend.
+
+Documentation: https://github.com/arquillian/arquillian-extension-rest/tree/master/rest-client
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-rest-resteasy3</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian REST JAXRS 2.0
+
+Arquillian REST Client Extension allows you to test your RESTful applications on the client side.
+
+Sometimes you need to test your REST app as a black box. You know the interface (the contract), you have some input and know what results you expect. For that purpose Arquillian REST Client Extension is your friend.
+
+Documentation: https://github.com/arquillian/arquillian-extension-rest/tree/master/rest-client
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-rest-jaxrs2</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+A JAXRS compliant implementation.
+
+==== Arquillian REST Jersey
+
+Arquillian REST Client Extension allows you to test your RESTful applications on the client side.
+
+Sometimes you need to test your REST app as a black box. You know the interface (the contract), you have some input and know what results you expect. For that purpose Arquillian REST Client Extension is your friend.
+
+Documentation: https://github.com/arquillian/arquillian-extension-rest/tree/master/rest-client
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-rest-jersey</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian REST Warp RestEasy
+
+Arquillian Warp REST Extension allows you to test your RESTful applications on the server side.
+
+This extension brings tools for intercepting the state of the executing service and exercise it through in container tests that can be executed directly before or after the service is being invoked.
+
+Documentation: https://github.com/arquillian/arquillian-extension-rest/tree/master/warp-rest
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-rest-warp-resteasy</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+NOTE: you don't need to add `arquillian-warp` dependency since it is automatically added when using `arquillian-rest-warp-resteasy`.
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.jboss.resteasy</groupId>
+    <artifactId>resteasy-jaxrs</artifactId>
+    <version>${version.resteasy}</version>
+</dependency>
+----
+
+==== Arquillian REST Warp Jersey
+
+Arquillian Warp REST Extension allows you to test your RESTful applications on the server side.
+
+This extension brings tools for intercepting the state of the executing service and exercise it through in container tests that can be executed directly before or after the service is being invoked.
+
+Documentation: https://github.com/arquillian/arquillian-extension-rest/tree/master/warp-rest
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-rest-warp-jersey</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+NOTE: you don't need to add `arquillian-warp` dependency since it is automatically added when using `arquillian-rest-warp-jersey`.
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.glassfish.jersey.core</groupId>
+    <artifactId>jersey-client</artifactId>
+    <version>${version.jersey}/version>
+</dependency>
+----
+
+==== Arquillian REST Warp JAXRS 2.0
+
+Arquillian Warp REST Extension allows you to test your RESTful applications on the server side.
+
+This extension brings tools for intercepting the state of the executing service and exercise it through in container tests that can be executed directly before or after the service is being invoked.
+
+Documentation: https://github.com/arquillian/arquillian-extension-rest/tree/master/warp-rest
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-rest-warp-jaxrs2</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+NOTE: you don't need to add `arquillian-warp` dependency since it is automatically added when using `arquillian-rest-warp-jaxrs2`.
+
+===== Additional required dependencies
+
+A JAXRS compliant implementation.
+
+==== Arquillian REST Warp CXF
+
+Arquillian Warp REST Extension allows you to test your RESTful applications on the server side.
+
+This extension brings tools for intercepting the state of the executing service and exercise it through in container tests that can be executed directly before or after the service is being invoked.
+
+Documentation: https://github.com/arquillian/arquillian-extension-rest/tree/master/warp-rest
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-rest-warp-cxf</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+NOTE: you don't need to add `arquillian-warp` dependency since it is automatically added when using `arquillian-rest-warp-cxf`.
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-frontend-jaxrs</artifactId>
+    <version>${version.cxf}</version>
+</dependency>
+----
+
 ==== Arquillian Cube Docker
 
 Arquillian Cube is an Arquillian extension that can be used to manager Docker containers from Arquillian.

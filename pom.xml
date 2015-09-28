@@ -55,6 +55,7 @@
         <version.arquillian_jacoco>1.0.0.Alpha8</version.arquillian_jacoco>
         <version.arquillian_recorder>1.1.0.Alpha2</version.arquillian_recorder>
         <version.arquillian_governor>1.0.0.Alpha3</version.arquillian_governor>
+        <version.arquillian_rest>1.0.0.Alpha3</version.arquillian_rest>
         <version.arquillian_chameleon>1.0.0.Alpha5</version.arquillian_chameleon>
         <version.arquillian_cukes_in_space>1.6.1</version.arquillian_cukes_in_space>
         <version.shrinkwrap_resolvers>2.2.0</version.shrinkwrap_resolvers>
@@ -88,6 +89,16 @@
         <module>arquillian-jacoco</module>
         <module>arquillian-recorder-api</module>
         <module>arquillian-recorder</module>
+        <module>arquillian-rest-core</module>
+        <module>arquillian-rest-resteasy2</module>
+        <module>arquillian-rest-resteasy3</module>
+        <module>arquillian-rest-jaxrs2</module>
+        <module>arquillian-rest-jersey</module>
+        <module>arquillian-rest-warp-core</module>
+        <module>arquillian-rest-warp-resteasy</module>
+        <module>arquillian-rest-warp-jaxrs2</module>
+        <module>arquillian-rest-warp-jersey</module>
+        <module>arquillian-rest-warp-cxf</module>
         <module>arquillian-chameleon</module>
         <module>arquillian-cube-core</module>
         <module>arquillian-cube-docker</module>
