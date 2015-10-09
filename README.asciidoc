@@ -779,6 +779,22 @@ Documentation: https://github.com/arquillian/arquillian-governor#arquillian-gove
 </dependency>
 ----
 
+==== Arquillian Spacelift
+
+Arquillian process and package manager. Makes executing an external process or fetching platform dependent dependencies an easier job.
+
+Documentation: https://github.com/arquillian/arquillian-spacelift
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-spacelift</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
 ==== Arquillian Chameleon Container
 
 Have you ever faced an issue that switching between container implementations isn’t that easy?
