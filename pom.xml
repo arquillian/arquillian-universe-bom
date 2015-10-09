@@ -4,6 +4,14 @@
     <!-- Model Information -->
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- Parent -->
+    <parent>
+        <groupId>org.jboss</groupId>
+        <artifactId>jboss-parent</artifactId>
+        <version>19</version>
+        <relativePath />
+    </parent>
+
     <!-- Artifact Information -->
     <groupId>org.arquillian.universe</groupId>
     <artifactId>arquillian-universe-parent</artifactId>
@@ -30,8 +38,8 @@
         <connection>scm:git:git@github.com:arquillian/arquillian-universe-bom.git</connection>
         <developerConnection>scm:git:ssh://github.com/arquillian/arquillian-universe-bom.git</developerConnection>
         <url>git://github.com/arquillian/arquillian-universe-bom.git</url>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
     <developers>
         <developer>
@@ -110,4 +118,20 @@
         <module>test</module>
     </modules>
 
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>2.5.2</version>
+                    <configuration>
+                        <tagNameFormat>@{project.version}</tagNameFormat>
+                        <autoVersionSubmodules>true</autoVersionSubmodules>
+                        <pushChanges>false</pushChanges>
+                        <localCheckout>true</localCheckout>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
