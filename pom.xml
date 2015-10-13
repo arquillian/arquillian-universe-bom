@@ -92,6 +92,7 @@
         <module>arquillian-spring-persistence</module>
         <module>arquillian-spring-warp</module>
         <module>arquillian-governor-core</module>
+        <module>arquillian-governor-github</module>
         <module>arquillian-governor-jira</module>
         <module>arquillian-governor-skipper</module>
         <module>arquillian-byteman</module>
