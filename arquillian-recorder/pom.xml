@@ -33,46 +33,16 @@
                 <groupId>org.arquillian.extension</groupId>
                 <artifactId>arquillian-recorder-reporter-impl</artifactId>
                 <version>${version.arquillian_recorder}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.jboss.arquillian.core</groupId>
-                        <artifactId>arquillian-core-impl-base</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.jboss.arquillian.test</groupId>
-                        <artifactId>arquillian-test-impl-base</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.arquillian.extension</groupId>
                 <artifactId>arquillian-recorder-screenshooter-impl-base</artifactId>
                 <version>${version.arquillian_recorder}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.jboss.arquillian.core</groupId>
-                        <artifactId>arquillian-core-impl-base</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.jboss.arquillian.test</groupId>
-                        <artifactId>arquillian-test-impl-base</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.arquillian.extension</groupId>
                 <artifactId>arquillian-recorder-video-impl-base</artifactId>
                 <version>${version.arquillian_recorder}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.jboss.arquillian.core</groupId>
-                        <artifactId>arquillian-core-impl-base</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.jboss.arquillian.test</groupId>
-                        <artifactId>arquillian-test-impl-base</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
         </dependencies>
     </dependencyManagement>
