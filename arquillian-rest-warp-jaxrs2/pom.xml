@@ -22,11 +22,6 @@
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
-            <dependency>
-                <groupId>org.jboss.arquillian.extension</groupId>
-                <artifactId>arquillian-rest-warp-impl-jaxrs-2.0</artifactId>
-                <version>${version.arquillian_rest}</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 
