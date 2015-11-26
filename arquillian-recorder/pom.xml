@@ -68,5 +68,9 @@
             <groupId>org.arquillian.extension</groupId>
             <artifactId>arquillian-recorder-screenshooter-impl-base</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.arquillian.extension</groupId>
+            <artifactId>arquillian-recorder-video-impl-base</artifactId>
+        </dependency>
     </dependencies>
 </project>
