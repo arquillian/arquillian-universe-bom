@@ -779,6 +779,22 @@ Documentation: https://github.com/arquillian/arquillian-governor#arquillian-gove
 </dependency>
 ----
 
+==== Arquillian Governor Ignore
+
+Arquillian Governor Extension and the implementations which use its API give you the possibility to choose what test methods of your Arquillian tests are going to be executed and what are going to be skipped based on configuration of class and method expressions in the Arquillian configuration.
+
+Documentation: https://github.com/arquillian/arquillian-governor#arquillian-governor-ignore-extension
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-governor-ignore</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
 ==== Arquillian Spacelift
 
 Arquillian process and package manager. Makes executing an external process or fetching platform dependent dependencies an easier job.

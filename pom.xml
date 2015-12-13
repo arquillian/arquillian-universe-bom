@@ -96,6 +96,7 @@
         <module>arquillian-governor-jira</module>
         <module>arquillian-governor-skipper</module>
         <module>arquillian-governor-github</module>
+        <module>arquillian-governor-ignore</module>
         <module>arquillian-byteman</module>
         <module>arquillian-jacoco</module>
         <module>arquillian-recorder-api</module>
