@@ -62,7 +62,7 @@
         <version.arquillian_byteman>1.0.0.Alpha3</version.arquillian_byteman>
         <version.arquillian_jacoco>1.0.0.Alpha8</version.arquillian_jacoco>
         <version.arquillian_recorder>1.1.0.Final</version.arquillian_recorder>
-        <version.arquillian_governor>1.0.1.Final</version.arquillian_governor>
+        <version.arquillian_governor>1.0.2.Final</version.arquillian_governor>
         <version.arquillian_rest>1.0.0.Alpha4</version.arquillian_rest>
         <version.arquillian_spacelift>1.0.0.Alpha8</version.arquillian_spacelift>
         <version.arquillian_chameleon>1.0.0.Alpha5</version.arquillian_chameleon>
