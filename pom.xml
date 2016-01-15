@@ -68,7 +68,7 @@
         <version.arquillian_chameleon>1.0.0.Alpha5</version.arquillian_chameleon>
         <version.arquillian_cukes_in_space>1.6.1</version.arquillian_cukes_in_space>
         <version.shrinkwrap>1.2.3</version.shrinkwrap>
-        <version.shrinkwrap_resolvers>2.2.0</version.shrinkwrap_resolvers>
+        <version.shrinkwrap_resolvers>2.2.1</version.shrinkwrap_resolvers>
         <version.selenium>2.47.1</version.selenium>
     </properties>
 
