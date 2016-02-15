@@ -69,7 +69,7 @@
         <version.arquillian_cukes_in_space>1.6.1</version.arquillian_cukes_in_space>
         <version.shrinkwrap>1.2.3</version.shrinkwrap>
         <version.shrinkwrap_resolvers>2.2.1</version.shrinkwrap_resolvers>
-        <version.selenium>2.50.1</version.selenium>
+        <version.selenium>2.52.0</version.selenium>
     </properties>
 
     <modules>
