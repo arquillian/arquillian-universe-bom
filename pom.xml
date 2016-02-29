@@ -53,7 +53,7 @@
     <properties>
         <version.arquillian_core>1.1.11.Final</version.arquillian_core>
         <version.arquillian_drone>2.0.0.Beta1</version.arquillian_drone>
-        <version.arquillian_cube>1.0.0.Alpha8</version.arquillian_cube>
+        <version.arquillian_cube>1.0.0.Alpha9</version.arquillian_cube>
         <version.arquillian_graphene>2.1.0.Alpha3</version.arquillian_graphene>
         <version.arquillian_warp>1.0.0.Alpha7</version.arquillian_warp>
         <version.arquillian_transaction>1.0.3.Final</version.arquillian_transaction>
