@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.arquillian.universe</groupId>
         <artifactId>arquillian-universe-parent</artifactId>
-        <version>1.0.0.Final-SNAPSHOT</version>
+        <version>1.0.0.Alpha3</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
