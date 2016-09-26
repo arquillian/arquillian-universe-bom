@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-universe-parent</artifactId>
+        <version>1.0.0.Final-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>arquillian-cube-q-simianarmy</artifactId>
+    <name>Arquillian Cube Q SimianArmy</name>
+    <packaging>pom</packaging>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.arquillian.cube.q</groupId>
+                <artifactId>arquillian-cube-q-simianarmy</artifactId>
+                <version>${version.arquillian_cube_q}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.arquillian.cube.q</groupId>
+            <artifactId>arquillian-cube-q-simianarmy</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>
+
