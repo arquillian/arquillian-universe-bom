@@ -52,8 +52,10 @@
 
     <properties>
         <version.arquillian_core>1.1.11.Final</version.arquillian_core>
-        <version.arquillian_drone>2.0.0.Final</version.arquillian_drone>
-        <version.arquillian_cube>1.0.0.Alpha12</version.arquillian_cube>
+        <version.arquillian_drone>2.0.1.Final</version.arquillian_drone>
+        <version.arquillian_cube>1.0.0.Alpha15</version.arquillian_cube>
+        <version.arquillian_cube_q>1.0.0.Alpha1</version.arquillian_cube_q>
+        <version.arquillian_pact>1.0.0.Alpha1</version.arquillian_pact>
         <version.arquillian_graphene>2.1.0.Final</version.arquillian_graphene>
         <version.arquillian_warp>1.0.0.Alpha7</version.arquillian_warp>
         <version.arquillian_transaction>1.0.3.Final</version.arquillian_transaction>
@@ -61,12 +63,12 @@
         <version.arquillian_spring>1.1.0.Alpha1</version.arquillian_spring>
         <version.arquillian_byteman>1.0.0.Alpha3</version.arquillian_byteman>
         <version.arquillian_jacoco>1.0.0.Alpha8</version.arquillian_jacoco>
-        <version.arquillian_recorder>1.1.0.Final</version.arquillian_recorder>
-        <version.arquillian_governor>1.0.2.Final</version.arquillian_governor>
+        <version.arquillian_recorder>1.1.4.Final</version.arquillian_recorder>
+        <version.arquillian_governor>1.0.3.Final</version.arquillian_governor>
         <version.arquillian_rest>1.0.0.Alpha4</version.arquillian_rest>
         <version.arquillian_spacelift>1.0.0.Alpha8</version.arquillian_spacelift>
-        <version.arquillian_chameleon>1.0.0.Alpha6</version.arquillian_chameleon>
-        <version.arquillian_cukes_in_space>1.6.1</version.arquillian_cukes_in_space>
+        <version.arquillian_chameleon>1.0.0.Alpha7</version.arquillian_chameleon>
+        <version.arquillian_cukes_in_space>1.6.2</version.arquillian_cukes_in_space>
         <version.shrinkwrap>1.2.6</version.shrinkwrap>
         <version.shrinkwrap_descriptors>2.0.0-alpha-10</version.shrinkwrap_descriptors>
         <version.shrinkwrap_resolvers>2.2.4</version.shrinkwrap_resolvers>
@@ -119,7 +121,13 @@
         <module>arquillian-cube-docker</module>
         <module>arquillian-cube-openshift</module>
         <module>arquillian-cube-containerless</module>
+        <module>arquillian-cube-kubernetes</module>
         <module>arquillian-cukes</module>
+        <module>arquillian-cube-q-pumba</module>
+        <module>arquillian-cube-q-simianarmy</module>
+        <module>arquillian-cube-q-toxic</module>
+        <module>arquillian-pact-consumer</module>
+        <module>arquillian-pact-provider</module>
         <module>test</module>
     </modules>
 

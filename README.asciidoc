@@ -731,6 +731,135 @@ Documentation: https://github.com/arquillian/arquillian-cube#containerless-serve
 </dependency>
 ----
 
+==== Arquillian Cube Kubernetes
+
+Arquillian Cube Kubernetes is an Arquillian extension that can be used to manager Kubernetes elements from Arquillian.
+
+Documentation: http://arquillian.org/arquillian-cube/#_kubernetes
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cube-kubernetes</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Cube Q Pumba
+
+Arquillian Cube Q is an extension of Arquillian Cube (https://github.com/arquillian/arquillian-cube) that allows you to write chaos tests. Since Arquillian Cube Q is an extension of Cube, it relies on Docker to execute them.
+
+It integrates with Pumba for container chaos.
+
+Documentation: https://github.com/arquillian/arquillian-cube-q#container-chaos
+Repository: https://github.com/arquillian/arquillian-cube-q
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cube-q-pumba</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Cube Q SimianArmy
+
+Arquillian Cube Q is an extension of Arquillian Cube (https://github.com/arquillian/arquillian-cube) that allows you to write chaos tests. Since Arquillian Cube Q is an extension of Cube, it relies on Docker to execute them.
+
+It integrates with SimianArmy for operative system chaos.
+
+Documentation: https://github.com/arquillian/arquillian-cube-q#operative-system-chaos
+Repository: https://github.com/arquillian/arquillian-cube-q
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cube-q-simianarmy</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Cube Q Toxic
+
+Arquillian Cube Q is an extension of Arquillian Cube (https://github.com/arquillian/arquillian-cube) that allows you to write chaos tests. Since Arquillian Cube Q is an extension of Cube, it relies on Docker to execute them.
+
+It integrates with Toxify for network chaos.
+
+Documentation: https://github.com/arquillian/arquillian-cube-q#network-chaos
+Repository: https://github.com/arquillian/arquillian-cube-q
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cube-q-toxic</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Pact Consumer
+
+Arquillian Pact is the integration of all Arquillian philosophy/extensions into Consumer Driven Contracts approach using Pact-JVM.
+
+Documentation: https://github.com/arquillian/arquillian-pact#arquillian-pact-consumer
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-pact-consumer</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>au.com.dius</groupId>
+    <artifactId>pact-jvm-consumer_2.11</artifactId>
+    <scope>test</scope
+    <version>3.5.0-beta.1</version> <!-- any 3.X -->
+</dependency>
+----
+
+==== Arquillian Pact Provider
+
+Arquillian Pact is the integration of all Arquillian philosophy/extensions into Consumer Driven Contracts approach using Pact-JVM.
+
+Documentation: https://github.com/arquillian/arquillian-pact#arquillian-pact-provider
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-pact-provider</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>au.com.dius</groupId>
+    <artifactId>pact-jvm-provider_2.11</artifactId>
+    <scope>test</scope
+    <version>3.5.0-beta.1</version> <!-- any 3.X -->
+</dependency>
+----
+
 ==== Arquillian Governor JIRA
 
 Arquillian Governor Extension and the implementations which use its API give you the possibility to programmatically choose what test methods of your Arquillian tests are going to be executed and what are going to be skipped by putting your custom annotations on the test methods.
