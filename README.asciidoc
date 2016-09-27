@@ -731,6 +731,22 @@ Documentation: https://github.com/arquillian/arquillian-cube#containerless-serve
 </dependency>
 ----
 
+==== Arquillian Cube Kubernetes
+
+Arquillian Cube Kubernetes is an Arquillian extension that can be used to manager Kubernetes elements from Arquillian.
+
+Documentation: http://arquillian.org/arquillian-cube/#_kubernetes
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cube-kubernetes</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
 ==== Arquillian Cube Q Pumba
 
 Arquillian Cube Q is an extension of Arquillian Cube (https://github.com/arquillian/arquillian-cube) that allows you to write chaos tests. Since Arquillian Cube Q is an extension of Cube, it relies on Docker to execute them.

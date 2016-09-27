@@ -16,6 +16,13 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-cube-docker</artifactId>
+                <version>${project.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+            <dependency>
                 <groupId>org.arquillian.cube.q</groupId>
                 <artifactId>arquillian-cube-q-simianarmy</artifactId>
                 <version>${version.arquillian_cube_q}</version>
@@ -24,6 +31,12 @@
     </dependencyManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>org.arquillian.universe</groupId>
+            <artifactId>arquillian-cube-docker</artifactId>
+            <version>${project.version}</version>
+            <type>pom</type>
+        </dependency>
         <dependency>
             <groupId>org.arquillian.cube.q</groupId>
             <artifactId>arquillian-cube-q-simianarmy</artifactId>

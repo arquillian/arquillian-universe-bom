@@ -120,6 +120,7 @@
         <module>arquillian-cube-docker</module>
         <module>arquillian-cube-openshift</module>
         <module>arquillian-cube-containerless</module>
+        <module>arquillian-cube-kubernetes</module>
         <module>arquillian-cukes</module>
         <module>arquillian-cube-q-pumba</module>
         <module>arquillian-cube-q-simianarmy</module>

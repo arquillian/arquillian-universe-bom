@@ -9,23 +9,23 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arquillian-pact-provider</artifactId>
-    <name>Arquillian Pact Provider</name>
+    <artifactId>arquillian-cube-kubernetes</artifactId>
+    <name>Arquillian Cube Kubernetes</name>
     <packaging>pom</packaging>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.arquillian.universe</groupId>
-                <artifactId>arquillian-core</artifactId>
+                <artifactId>arquillian-cube-core</artifactId>
                 <version>${project.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
             <dependency>
-                <groupId>org.arquillian.pact</groupId>
-                <artifactId>arquillian-pact-provider-core</artifactId>
-                <version>${version.arquillian_pact}</version>
+                <groupId>org.arquillian.cube</groupId>
+                <artifactId>arquillian-cube-kubernetes</artifactId>
+                <version>${version.arquillian_cube}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -33,16 +33,16 @@
     <dependencies>
         <dependency>
             <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-core</artifactId>
+            <artifactId>arquillian-cube-core</artifactId>
             <version>${project.version}</version>
             <type>pom</type>
         </dependency>
         <dependency>
-            <groupId>org.arquillian.pact</groupId>
-            <artifactId>arquillian-pact-provider-core</artifactId>
+            <groupId>org.arquillian.cube</groupId>
+            <artifactId>arquillian-cube-kubernetes</artifactId>
         </dependency>
     </dependencies>
 
-</project>
 
+</project>
 
