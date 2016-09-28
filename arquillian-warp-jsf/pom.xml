@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.arquillian.universe</groupId>
         <artifactId>arquillian-universe-parent</artifactId>
-        <version>1.0.0.Alpha4</version>
+        <version>1.0.0.Final-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
