@@ -57,7 +57,7 @@
         <version.arquillian_cube_q>1.0.0.Alpha1</version.arquillian_cube_q>
         <version.arquillian_pact>1.0.0.Alpha1</version.arquillian_pact>
         <version.arquillian_graphene>2.1.0.Final</version.arquillian_graphene>
-        <version.arquillian_warp>1.0.0.Alpha7</version.arquillian_warp>
+        <version.arquillian_warp>1.0.0.Alpha8</version.arquillian_warp>
         <version.arquillian_transaction>1.0.3.Final</version.arquillian_transaction>
         <version.arquillian_persistence>1.0.0.Alpha7</version.arquillian_persistence>
         <version.arquillian_spring>1.1.0.Alpha1</version.arquillian_spring>
