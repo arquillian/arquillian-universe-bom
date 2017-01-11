@@ -9,8 +9,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arquillian-pact-provider</artifactId>
-    <name>Arquillian Pact Provider</name>
+    <artifactId>arquillian-algeron-pact-provider</artifactId>
+    <name>Arquillian Algeron Pact Provider</name>
     <packaging>pom</packaging>
 
     <dependencyManagement>
@@ -23,9 +23,9 @@
                 <type>pom</type>
             </dependency>
             <dependency>
-                <groupId>org.arquillian.pact</groupId>
-                <artifactId>arquillian-pact-provider-core</artifactId>
-                <version>${version.arquillian_pact}</version>
+                <groupId>org.arquillian.algeron</groupId>
+                <artifactId>arquillian-algeron-pact-provider-core</artifactId>
+                <version>${version.arquillian_algeron}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -38,11 +38,9 @@
             <type>pom</type>
         </dependency>
         <dependency>
-            <groupId>org.arquillian.pact</groupId>
-            <artifactId>arquillian-pact-provider-core</artifactId>
+            <groupId>org.arquillian.algeron</groupId>
+            <artifactId>arquillian-algeron-pact-provider-core</artifactId>
         </dependency>
     </dependencies>
 
 </project>
-
-

@@ -804,17 +804,17 @@ Repository: https://github.com/arquillian/arquillian-cube-q
 </dependency>
 ----
 
-==== Arquillian Pact Consumer
+==== Arquillian Algeron Pact Consumer
 
-Arquillian Pact is the integration of all Arquillian philosophy/extensions into Consumer Driven Contracts approach using Pact-JVM.
+Arquillian Algeron Pact is the integration of all Arquillian philosophy/extensions into Consumer Driven Contracts approach using Pact-JVM.
 
-Documentation: https://github.com/arquillian/arquillian-pact#arquillian-pact-consumer
+Documentation: https://github.com/arquillian/arquillian-algeron#arquillian-algeron-pact-consumer
 
 [source, java]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
-    <artifactId>arquillian-pact-consumer</artifactId>
+    <artifactId>arquillian-algeron-pact-consumer</artifactId>
     <scope>test</scope>
     <type>pom</type>
 </dependency>
@@ -828,21 +828,21 @@ Documentation: https://github.com/arquillian/arquillian-pact#arquillian-pact-con
     <groupId>au.com.dius</groupId>
     <artifactId>pact-jvm-consumer_2.11</artifactId>
     <scope>test</scope
-    <version>3.5.0-beta.1</version> <!-- any 3.X -->
+    <version>3.5.0-beta.2</version> <!-- any 3.5.X -->
 </dependency>
 ----
 
-==== Arquillian Pact Provider
+==== Arquillian Algeron Pact Provider
 
-Arquillian Pact is the integration of all Arquillian philosophy/extensions into Consumer Driven Contracts approach using Pact-JVM.
+Arquillian Algeron Pact is the integration of all Arquillian philosophy/extensions into Consumer Driven Contracts approach using Pact-JVM.
 
-Documentation: https://github.com/arquillian/arquillian-pact#arquillian-pact-provider
+Documentation: https://github.com/arquillian/arquillian-algeron#arquillian-algeron-pact-consumer
 
 [source, java]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
-    <artifactId>arquillian-pact-provider</artifactId>
+    <artifactId>arquillian-algeron-pact-provider</artifactId>
     <scope>test</scope>
     <type>pom</type>
 </dependency>
@@ -856,7 +856,7 @@ Documentation: https://github.com/arquillian/arquillian-pact#arquillian-pact-pro
     <groupId>au.com.dius</groupId>
     <artifactId>pact-jvm-provider_2.11</artifactId>
     <scope>test</scope
-    <version>3.5.0-beta.1</version> <!-- any 3.X -->
+    <version>3.5.0-beta.2</version> <!-- any 3.5.X -->
 </dependency>
 ----
 
