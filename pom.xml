@@ -55,7 +55,7 @@
         <version.arquillian_drone>2.0.1.Final</version.arquillian_drone>
         <version.arquillian_cube>1.0.0.Alpha16</version.arquillian_cube>
         <version.arquillian_cube_q>1.0.0.Alpha2</version.arquillian_cube_q>
-        <version.arquillian_pact>1.0.0.Alpha1</version.arquillian_pact>
+        <version.arquillian_algeron>1.0.0.Alpha5</version.arquillian_algeron>
         <version.arquillian_graphene>2.1.0.Final</version.arquillian_graphene>
         <version.arquillian_warp>1.0.0.Alpha8</version.arquillian_warp>
         <version.arquillian_transaction>1.0.3.Final</version.arquillian_transaction>
@@ -126,8 +126,8 @@
         <module>arquillian-cube-q-pumba</module>
         <module>arquillian-cube-q-simianarmy</module>
         <module>arquillian-cube-q-toxic</module>
-        <module>arquillian-pact-consumer</module>
-        <module>arquillian-pact-provider</module>
+        <module>arquillian-algeron-pact-consumer</module>
+        <module>arquillian-algeron-pact-provider</module>
         <module>test</module>
     </modules>
 
