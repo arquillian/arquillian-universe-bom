@@ -1,13 +1,38 @@
-target/
+# Eclipse
 .project
-.settings
 .classpath
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
+.settings/
+
+# IntelliJ
 *.iml
-.idea/
+*.ipr
+*.iws
+.idea
+
+# Gradle
+.gradle/
+.ivy/
+
+# Maven
+target/
+dependency-reduced-pom.xml
+*.versionsBackup
+
+# TestNG
+test-output/
+
+# JBoss AS
+transaction.log
+
+# Infinitest configuration
+infinitest.filters
+
+# Logs
+*.log
+*.log~
+
+# Libreoffice leftovers (XLS)
+.~lock*
+
+atlassian-ide-plugin.xml
+.autoenv.zsh
