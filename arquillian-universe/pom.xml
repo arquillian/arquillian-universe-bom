@@ -254,6 +254,18 @@
                 <version>${project.version}</version>
                 <type>pom</type>
             </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-algeron-pact-consumer</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-algeron-pact-provider</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
 
         </dependencies>
 
