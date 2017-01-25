@@ -266,7 +266,30 @@
                 <version>${project.version}</version>
                 <type>pom</type>
             </dependency>
-
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-algeron-git-publisher</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-algeron-git-retriever</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-algeron-maven-retriever</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.arquillian.universe</groupId>
+                <artifactId>arquillian-algeron-pact-broker-retriever</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
         </dependencies>
 
     </dependencyManagement>

@@ -128,6 +128,10 @@
         <module>arquillian-cube-q-toxic</module>
         <module>arquillian-algeron-pact-consumer</module>
         <module>arquillian-algeron-pact-provider</module>
+        <module>arquillian-algeron-git-publisher</module>
+        <module>arquillian-algeron-git-retriever</module>
+        <module>arquillian-algeron-maven-retriever</module>
+        <module>arquillian-algeron-pact-broker-retriever</module>
         <module>test</module>
     </modules>
 

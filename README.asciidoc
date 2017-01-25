@@ -860,6 +860,56 @@ Documentation: https://github.com/arquillian/arquillian-algeron#arquillian-alger
 </dependency>
 ----
 
+==== Arquillian Algeron Publishers
+
+Arquillian Algeron provides an integration to publish generated contracts.
+
+Documentation: https://github.com/arquillian/arquillian-algeron#arquillian-algeron-consumer-publisher
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-algeron-git-publisher</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Algeron Retrievers
+
+Arquillian Algeron provides an integration to publish generated contracts.
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-algeron-git-retriever</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-algeron-maven-retriever</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-algeron-pact-broker-retriever</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
 ==== Arquillian Governor JIRA
 
 Arquillian Governor Extension and the implementations which use its API give you the possibility to programmatically choose what test methods of your Arquillian tests are going to be executed and what are going to be skipped by putting your custom annotations on the test methods.
