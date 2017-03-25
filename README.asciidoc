@@ -697,6 +697,34 @@ Documentation: https://github.com/arquillian/arquillian-cube
 </dependency>
 ----
 
+==== Arquillian Cube Docker REST Assured
+
+Arquillian Cube is an Arquillian extension that can be used to manager Docker containers from Arquillian and can be integrated with REST Assured
+
+Documentation: http://arquillian.org/arquillian-cube/#_rest_assured_integration
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cube-docker-restassured</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>3.0.2</version>
+    <scope>test</scope>
+</dependency>
+----
+
 ==== Arquillian Cube OpenShift
 
 Arquillian Cube is an Arquillian extension that can be used to manager Docker containers from Arquillian.
