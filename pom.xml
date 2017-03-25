@@ -53,7 +53,7 @@
     <properties>
         <version.arquillian_core>1.1.13.Final</version.arquillian_core>
         <version.arquillian_drone>2.1.0.Alpha3</version.arquillian_drone>
-        <version.arquillian_cube>1.0.0.Alpha20</version.arquillian_cube>
+        <version.arquillian_cube>1.0.0</version.arquillian_cube>
         <version.arquillian_cube_q>1.0.0.Alpha3</version.arquillian_cube_q>
         <version.arquillian_algeron>1.0.0.Alpha5</version.arquillian_algeron>
         <version.arquillian_graphene>2.2.0</version.arquillian_graphene>
@@ -122,6 +122,7 @@
         <module>arquillian-cube-openshift</module>
         <module>arquillian-cube-containerless</module>
         <module>arquillian-cube-kubernetes</module>
+        <module>arquillian-cube-docker-restassured</module>
         <module>arquillian-cukes</module>
         <module>arquillian-cube-q-pumba</module>
         <module>arquillian-cube-q-simianarmy</module>
