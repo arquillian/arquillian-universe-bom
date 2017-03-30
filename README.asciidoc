@@ -1053,3 +1053,111 @@ Documentation: https://github.com/arquillian/arquillian-container-chameleon
     <type>pom</type>
 </dependency>
 ----
+
+==== Arquillian APE NoSQL MongoDB
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-ape-nosql-mongodb</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongodb-driver</artifactId>
+    <version>3.4.2</version> <!-- Any 3.X should work -->
+    <scope>test</scope>
+</dependency>
+----
+
+==== Arquillian APE NoSQL Redis
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-ape-nosql-redis</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>redis.clients</groupId>
+    <artifactId>jedis</artifactId>
+    <scope>test</scope>
+    <version>2.9.0</version>
+</dependency>
+----
+
+==== Arquillian APE NoSQL Couchbase
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-ape-nosql-couchbase</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>com.couchbase.client</groupId>
+    <artifactId>java-client</artifactId>
+    <scope>test</scope>
+    <version>2.4.3</version>
+</dependency>
+----
+
+==== Arquillian APE REST Postman
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-ape-rest-postman</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian APE SQL Container DBUnit
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-ape-sql-container-dbunit</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian APE SQL Standalone DBUnit
+
+[source, java]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-ape-sql-standalone-dbunit</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
