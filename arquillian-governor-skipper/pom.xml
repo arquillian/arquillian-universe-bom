@@ -1,58 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <groupId>org.arquillian.universe</groupId>
-        <artifactId>arquillian-universe-parent</artifactId>
-        <version>1.1.13.2-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-universe-parent</artifactId>
+    <version>1.1.13.2-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
 
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arquillian-governor-skipper</artifactId>
-    <name>Arquillian Governor Skipper</name>
-    <packaging>pom</packaging>
+  <artifactId>arquillian-governor-skipper</artifactId>
+  <name>Arquillian Governor Skipper</name>
+  <packaging>pom</packaging>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.arquillian.universe</groupId>
-                <artifactId>arquillian-governor-core</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>org.arquillian.universe</groupId>
-                <artifactId>arquillian-recorder-api</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>org.arquillian.extension</groupId>
-                <artifactId>arquillian-governor-skipper</artifactId>
-                <version>${version.arquillian_governor}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
+  <dependencyManagement>
     <dependencies>
-        <dependency>
-            <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-governor-core</artifactId>
-            <version>${project.version}</version>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-recorder-api</artifactId>
-            <version>${project.version}</version>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>org.arquillian.extension</groupId>
-            <artifactId>arquillian-governor-skipper</artifactId>
-        </dependency>
+      <dependency>
+        <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-governor-core</artifactId>
+        <version>${project.version}</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-recorder-api</artifactId>
+        <version>${project.version}</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.arquillian.extension</groupId>
+        <artifactId>arquillian-governor-skipper</artifactId>
+        <version>${version.arquillian_governor}</version>
+      </dependency>
     </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.arquillian.universe</groupId>
+      <artifactId>arquillian-governor-core</artifactId>
+      <version>${project.version}</version>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>org.arquillian.universe</groupId>
+      <artifactId>arquillian-recorder-api</artifactId>
+      <version>${project.version}</version>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>org.arquillian.extension</groupId>
+      <artifactId>arquillian-governor-skipper</artifactId>
+    </dependency>
+  </dependencies>
 </project>

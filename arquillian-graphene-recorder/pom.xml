@@ -1,58 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <groupId>org.arquillian.universe</groupId>
-        <artifactId>arquillian-universe-parent</artifactId>
-        <version>1.1.13.2-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-universe-parent</artifactId>
+    <version>1.1.13.2-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
 
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arquillian-graphene-recorder</artifactId>
-    <name>Arquillian Graphene Recorder</name>
-    <packaging>pom</packaging>
+  <artifactId>arquillian-graphene-recorder</artifactId>
+  <name>Arquillian Graphene Recorder</name>
+  <packaging>pom</packaging>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.arquillian.universe</groupId>
-                <artifactId>arquillian-graphene</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>org.arquillian.universe</groupId>
-                <artifactId>arquillian-recorder</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.arquillian.graphene</groupId>
-                <artifactId>arquillian-browser-screenshooter</artifactId>
-                <version>${version.arquillian_graphene}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
+  <dependencyManagement>
     <dependencies>
-        <dependency>
-            <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-graphene</artifactId>
-            <version>${project.version}</version>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-recorder</artifactId>
-            <version>${project.version}</version>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.arquillian.graphene</groupId>
-            <artifactId>arquillian-browser-screenshooter</artifactId>
-        </dependency>
+      <dependency>
+        <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-graphene</artifactId>
+        <version>${project.version}</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-recorder</artifactId>
+        <version>${project.version}</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.arquillian.graphene</groupId>
+        <artifactId>arquillian-browser-screenshooter</artifactId>
+        <version>${version.arquillian_graphene}</version>
+      </dependency>
     </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.arquillian.universe</groupId>
+      <artifactId>arquillian-graphene</artifactId>
+      <version>${project.version}</version>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>org.arquillian.universe</groupId>
+      <artifactId>arquillian-recorder</artifactId>
+      <version>${project.version}</version>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.arquillian.graphene</groupId>
+      <artifactId>arquillian-browser-screenshooter</artifactId>
+    </dependency>
+  </dependencies>
 </project>

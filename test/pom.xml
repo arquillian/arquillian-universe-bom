@@ -1,77 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-    <parent>
-        <groupId>org.arquillian.universe</groupId>
-        <artifactId>arquillian-universe-parent</artifactId>
-        <version>1.1.13.2-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
+  <parent>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-universe-parent</artifactId>
+    <version>1.1.13.2-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
 
-    <!-- Model Information -->
-    <modelVersion>4.0.0</modelVersion>
+  <!-- Model Information -->
+  <modelVersion>4.0.0</modelVersion>
 
-    <!-- Artifact Information -->
-    <artifactId>arquillian-test</artifactId>
-    <name>Arquillian Universe Test</name>
-    <description>Arquillian Universe Test</description>
+  <!-- Artifact Information -->
+  <artifactId>arquillian-test</artifactId>
+  <name>Arquillian Universe Test</name>
+  <description>Arquillian Universe Test</description>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.arquillian</groupId>
-                <artifactId>arquillian-universe</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
+  <dependencyManagement>
     <dependencies>
-        <dependency>
-            <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-junit</artifactId>
-            <scope>test</scope>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-persistence</artifactId>
-            <scope>test</scope>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-chameleon</artifactId>
-            <scope>test</scope>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.22</version>
-            <scope>test</scope>
-        </dependency>
+      <dependency>
+        <groupId>org.arquillian</groupId>
+        <artifactId>arquillian-universe</artifactId>
+        <version>${project.version}</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
     </dependencies>
+  </dependencyManagement>
 
-    <build>
-        <plugins>
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
-                <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+  <dependencies>
+    <dependency>
+      <groupId>org.arquillian.universe</groupId>
+      <artifactId>arquillian-junit</artifactId>
+      <scope>test</scope>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>org.arquillian.universe</groupId>
+      <artifactId>arquillian-persistence</artifactId>
+      <scope>test</scope>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>org.arquillian.universe</groupId>
+      <artifactId>arquillian-chameleon</artifactId>
+      <scope>test</scope>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.22</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>

@@ -1,164 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-    <!-- Model Information -->
-    <modelVersion>4.0.0</modelVersion>
+  <!-- Model Information -->
+  <modelVersion>4.0.0</modelVersion>
 
-    <!-- Parent -->
-    <parent>
-        <groupId>org.jboss</groupId>
-        <artifactId>jboss-parent</artifactId>
-        <version>22</version>
-        <relativePath />
-    </parent>
+  <!-- Parent -->
+  <parent>
+    <groupId>org.jboss</groupId>
+    <artifactId>jboss-parent</artifactId>
+    <version>22</version>
+    <relativePath/>
+  </parent>
 
-    <!-- Artifact Information -->
-    <groupId>org.arquillian.universe</groupId>
-    <artifactId>arquillian-universe-parent</artifactId>
-    <version>1.1.13.2-SNAPSHOT</version>
-    <packaging>pom</packaging>
+  <!-- Artifact Information -->
+  <groupId>org.arquillian.universe</groupId>
+  <artifactId>arquillian-universe-parent</artifactId>
+  <version>1.1.13.2-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
-    <name>Arquillian Universe Aggregator</name>
-    <url>http://arquillian.org</url>
-    <description>Arquillian Universe</description>
+  <name>Arquillian Universe Aggregator</name>
+  <url>http://arquillian.org</url>
+  <description>Arquillian Universe</description>
 
-    <issueManagement>
-        <system>jira</system>
-        <url>http://jira.jboss.com/jira/browse/ARQ</url>
-    </issueManagement>
+  <issueManagement>
+    <system>jira</system>
+    <url>http://jira.jboss.com/jira/browse/ARQ</url>
+  </issueManagement>
 
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-        </license>
-    </licenses>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
 
-    <scm>
-        <connection>scm:git:git@github.com:arquillian/arquillian-universe-bom.git</connection>
-        <developerConnection>scm:git:ssh://github.com/arquillian/arquillian-universe-bom.git</developerConnection>
-        <url>git://github.com/arquillian/arquillian-universe-bom.git</url>
-        <tag>HEAD</tag>
-    </scm>
+  <scm>
+    <connection>scm:git:git@github.com:arquillian/arquillian-universe-bom.git</connection>
+    <developerConnection>scm:git:ssh://github.com/arquillian/arquillian-universe-bom.git</developerConnection>
+    <url>git://github.com/arquillian/arquillian-universe-bom.git</url>
+    <tag>HEAD</tag>
+  </scm>
 
-    <developers>
-        <developer>
-            <id>arquillian.org</id>
-            <name>Arquillian Community</name>
-            <organization>arquillian.org</organization>
-            <organizationUrl>http://arquillian.org</organizationUrl>
-        </developer>
-    </developers>
+  <developers>
+    <developer>
+      <id>arquillian.org</id>
+      <name>Arquillian Community</name>
+      <organization>arquillian.org</organization>
+      <organizationUrl>http://arquillian.org</organizationUrl>
+    </developer>
+  </developers>
 
-    <properties>
-        <version.arquillian_core>1.1.13.Final</version.arquillian_core>
-        <version.arquillian_drone>2.1.0.Alpha3</version.arquillian_drone>
-        <version.arquillian_cube>1.0.0</version.arquillian_cube>
-        <version.arquillian_cube_q>1.0.0.Alpha3</version.arquillian_cube_q>
-        <version.arquillian_algeron>1.0.0.Alpha5</version.arquillian_algeron>
-        <version.arquillian_graphene>2.2.0</version.arquillian_graphene>
-        <version.arquillian_warp>1.0.0.Alpha8</version.arquillian_warp>
-        <version.arquillian_transaction>1.0.4</version.arquillian_transaction>
-        <version.arquillian_persistence>1.0.0.Alpha7</version.arquillian_persistence>
-        <version.arquillian_spring>1.1.0.Alpha1</version.arquillian_spring>
-        <version.arquillian_byteman>1.0.0.Alpha4</version.arquillian_byteman>
-        <version.arquillian_jacoco>1.0.0.Alpha9</version.arquillian_jacoco>
-        <version.arquillian_recorder>1.1.6.Final</version.arquillian_recorder>
-        <version.arquillian_governor>1.0.4.Final</version.arquillian_governor>
-        <version.arquillian_rest>1.0.0.Alpha4</version.arquillian_rest>
-        <version.arquillian_spacelift>1.0.0.Alpha9</version.arquillian_spacelift>
-        <version.arquillian_chameleon>1.0.0.Beta1</version.arquillian_chameleon>
-        <version.arquillian_cukes_in_space>1.6.5</version.arquillian_cukes_in_space>
-        <version.ape>2.0.0-alpha.1</version.ape>
-        <version.shrinkwrap>1.2.6</version.shrinkwrap>
-        <version.shrinkwrap_descriptors>2.0.0-alpha-10</version.shrinkwrap_descriptors>
-        <version.shrinkwrap_resolvers>3.0.0-alpha-4</version.shrinkwrap_resolvers>
-        <version.selenium>2.53.1</version.selenium>
-        <version.dbunit>2.5.3</version.dbunit>
-        <version.nosqlunit>1.0.0-rc.2</version.nosqlunit>
-    </properties>
+  <properties>
+    <version.arquillian_core>1.1.13.Final</version.arquillian_core>
+    <version.arquillian_drone>2.1.0.Alpha3</version.arquillian_drone>
+    <version.arquillian_cube>1.0.0</version.arquillian_cube>
+    <version.arquillian_cube_q>1.0.0.Alpha3</version.arquillian_cube_q>
+    <version.arquillian_algeron>1.0.0.Alpha5</version.arquillian_algeron>
+    <version.arquillian_graphene>2.2.0</version.arquillian_graphene>
+    <version.arquillian_warp>1.0.0.Alpha8</version.arquillian_warp>
+    <version.arquillian_transaction>1.0.4</version.arquillian_transaction>
+    <version.arquillian_persistence>1.0.0.Alpha7</version.arquillian_persistence>
+    <version.arquillian_spring>1.1.0.Alpha1</version.arquillian_spring>
+    <version.arquillian_byteman>1.0.0.Alpha4</version.arquillian_byteman>
+    <version.arquillian_jacoco>1.0.0.Alpha9</version.arquillian_jacoco>
+    <version.arquillian_recorder>1.1.6.Final</version.arquillian_recorder>
+    <version.arquillian_governor>1.0.4.Final</version.arquillian_governor>
+    <version.arquillian_rest>1.0.0.Alpha4</version.arquillian_rest>
+    <version.arquillian_spacelift>1.0.0.Alpha9</version.arquillian_spacelift>
+    <version.arquillian_chameleon>1.0.0.Beta1</version.arquillian_chameleon>
+    <version.arquillian_cukes_in_space>1.6.5</version.arquillian_cukes_in_space>
+    <version.ape>2.0.0-alpha.1</version.ape>
+    <version.shrinkwrap>1.2.6</version.shrinkwrap>
+    <version.shrinkwrap_descriptors>2.0.0-alpha-10</version.shrinkwrap_descriptors>
+    <version.shrinkwrap_resolvers>3.0.0-alpha-4</version.shrinkwrap_resolvers>
+    <version.selenium>2.53.1</version.selenium>
+    <version.dbunit>2.5.3</version.dbunit>
+    <version.nosqlunit>1.0.0-rc.2</version.nosqlunit>
+  </properties>
 
-    <modules>
-        <module>arquillian-core</module>
-        <module>arquillian-junit</module>
-        <module>arquillian-junit-standalone</module>
-        <module>arquillian-testng</module>
-        <module>arquillian-testng-standalone</module>
-        <module>arquillian-universe</module>
-        <module>arquillian-drone</module>
-        <module>arquillian-graphene</module>
-        <module>arquillian-graphene-recorder</module>
-        <module>arquillian-warp</module>
-        <module>arquillian-warp-jsf</module>
-        <module>arquillian-transaction-core</module>
-        <module>arquillian-transaction-jta</module>
-        <module>arquillian-persistence-core</module>
-        <module>arquillian-persistence</module>
-        <module>arquillian-spring</module>
-        <module>arquillian-spring-transaction</module>
-        <module>arquillian-spring-persistence</module>
-        <module>arquillian-spring-warp</module>
-        <module>arquillian-governor-core</module>
-        <module>arquillian-governor-jira</module>
-        <module>arquillian-governor-github</module>
-        <module>arquillian-governor-redmine</module>
-        <module>arquillian-governor-skipper</module>
-        <module>arquillian-governor-ignore</module>
-        <module>arquillian-byteman</module>
-        <module>arquillian-jacoco</module>
-        <module>arquillian-recorder-api</module>
-        <module>arquillian-recorder</module>
-        <module>arquillian-rest-core</module>
-        <module>arquillian-rest-resteasy2</module>
-        <module>arquillian-rest-resteasy3</module>
-        <module>arquillian-rest-jaxrs2</module>
-        <module>arquillian-rest-jersey</module>
-        <module>arquillian-rest-warp-core</module>
-        <module>arquillian-rest-warp-resteasy</module>
-        <module>arquillian-rest-warp-jaxrs2</module>
-        <module>arquillian-rest-warp-jersey</module>
-        <module>arquillian-rest-warp-cxf</module>
-        <module>arquillian-spacelift</module>
-        <module>arquillian-chameleon</module>
-        <module>arquillian-cube-core</module>
-        <module>arquillian-cube-docker</module>
-        <module>arquillian-cube-openshift</module>
-        <module>arquillian-cube-containerless</module>
-        <module>arquillian-cube-kubernetes</module>
-        <module>arquillian-cube-docker-restassured</module>
-        <module>arquillian-cukes</module>
-        <module>arquillian-cube-q-pumba</module>
-        <module>arquillian-cube-q-simianarmy</module>
-        <module>arquillian-cube-q-toxic</module>
-        <module>arquillian-algeron-pact-consumer</module>
-        <module>arquillian-algeron-pact-provider</module>
-        <module>arquillian-algeron-git-publisher</module>
-        <module>arquillian-algeron-git-retriever</module>
-        <module>arquillian-algeron-maven-retriever</module>
-        <module>arquillian-algeron-pact-broker-retriever</module>
-        <module>arquillian-ape-nosql-mongodb</module>
-        <module>arquillian-ape-nosql-redis</module>
-        <module>arquillian-ape-nosql-couchbase</module>
-        <module>arquillian-ape-rest-postman</module>
-        <module>arquillian-ape-sql-container-dbunit</module>
-        <module>arquillian-ape-sql-standalone-dbunit</module>
-        <module>test</module>
-    </modules>
+  <modules>
+    <module>arquillian-core</module>
+    <module>arquillian-junit</module>
+    <module>arquillian-junit-standalone</module>
+    <module>arquillian-testng</module>
+    <module>arquillian-testng-standalone</module>
+    <module>arquillian-universe</module>
+    <module>arquillian-drone</module>
+    <module>arquillian-graphene</module>
+    <module>arquillian-graphene-recorder</module>
+    <module>arquillian-warp</module>
+    <module>arquillian-warp-jsf</module>
+    <module>arquillian-transaction-core</module>
+    <module>arquillian-transaction-jta</module>
+    <module>arquillian-persistence-core</module>
+    <module>arquillian-persistence</module>
+    <module>arquillian-spring</module>
+    <module>arquillian-spring-transaction</module>
+    <module>arquillian-spring-persistence</module>
+    <module>arquillian-spring-warp</module>
+    <module>arquillian-governor-core</module>
+    <module>arquillian-governor-jira</module>
+    <module>arquillian-governor-github</module>
+    <module>arquillian-governor-redmine</module>
+    <module>arquillian-governor-skipper</module>
+    <module>arquillian-governor-ignore</module>
+    <module>arquillian-byteman</module>
+    <module>arquillian-jacoco</module>
+    <module>arquillian-recorder-api</module>
+    <module>arquillian-recorder</module>
+    <module>arquillian-rest-core</module>
+    <module>arquillian-rest-resteasy2</module>
+    <module>arquillian-rest-resteasy3</module>
+    <module>arquillian-rest-jaxrs2</module>
+    <module>arquillian-rest-jersey</module>
+    <module>arquillian-rest-warp-core</module>
+    <module>arquillian-rest-warp-resteasy</module>
+    <module>arquillian-rest-warp-jaxrs2</module>
+    <module>arquillian-rest-warp-jersey</module>
+    <module>arquillian-rest-warp-cxf</module>
+    <module>arquillian-spacelift</module>
+    <module>arquillian-chameleon</module>
+    <module>arquillian-cube-core</module>
+    <module>arquillian-cube-docker</module>
+    <module>arquillian-cube-openshift</module>
+    <module>arquillian-cube-containerless</module>
+    <module>arquillian-cube-kubernetes</module>
+    <module>arquillian-cube-docker-restassured</module>
+    <module>arquillian-cukes</module>
+    <module>arquillian-cube-q-pumba</module>
+    <module>arquillian-cube-q-simianarmy</module>
+    <module>arquillian-cube-q-toxic</module>
+    <module>arquillian-algeron-pact-consumer</module>
+    <module>arquillian-algeron-pact-provider</module>
+    <module>arquillian-algeron-git-publisher</module>
+    <module>arquillian-algeron-git-retriever</module>
+    <module>arquillian-algeron-maven-retriever</module>
+    <module>arquillian-algeron-pact-broker-retriever</module>
+    <module>arquillian-ape-nosql-mongodb</module>
+    <module>arquillian-ape-nosql-redis</module>
+    <module>arquillian-ape-nosql-couchbase</module>
+    <module>arquillian-ape-rest-postman</module>
+    <module>arquillian-ape-sql-container-dbunit</module>
+    <module>arquillian-ape-sql-standalone-dbunit</module>
+    <module>test</module>
+  </modules>
 
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <artifactId>maven-release-plugin</artifactId>
-                    <version>2.5.3</version>
-                    <configuration>
-                        <tagNameFormat>@{project.version}</tagNameFormat>
-                        <autoVersionSubmodules>true</autoVersionSubmodules>
-                        <pushChanges>false</pushChanges>
-                        <localCheckout>true</localCheckout>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.5.3</version>
+          <configuration>
+            <tagNameFormat>@{project.version}</tagNameFormat>
+            <autoVersionSubmodules>true</autoVersionSubmodules>
+            <pushChanges>false</pushChanges>
+            <localCheckout>true</localCheckout>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>
