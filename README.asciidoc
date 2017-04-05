@@ -784,7 +784,7 @@ It integrates with Pumba for container chaos.
 Documentation: https://github.com/arquillian/arquillian-cube-q#container-chaos
 Repository: https://github.com/arquillian/arquillian-cube-q
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -803,7 +803,7 @@ It integrates with SimianArmy for operative system chaos.
 Documentation: https://github.com/arquillian/arquillian-cube-q#operative-system-chaos
 Repository: https://github.com/arquillian/arquillian-cube-q
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -822,7 +822,7 @@ It integrates with Toxify for network chaos.
 Documentation: https://github.com/arquillian/arquillian-cube-q#network-chaos
 Repository: https://github.com/arquillian/arquillian-cube-q
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -838,7 +838,7 @@ Arquillian Algeron Pact is the integration of all Arquillian philosophy/extensio
 
 Documentation: https://github.com/arquillian/arquillian-algeron#arquillian-algeron-pact-consumer
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -866,7 +866,7 @@ Arquillian Algeron Pact is the integration of all Arquillian philosophy/extensio
 
 Documentation: https://github.com/arquillian/arquillian-algeron#arquillian-algeron-pact-consumer
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -894,7 +894,7 @@ Arquillian Algeron provides an integration to publish generated contracts.
 
 Documentation: https://github.com/arquillian/arquillian-algeron#arquillian-algeron-consumer-publisher
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -908,7 +908,7 @@ Documentation: https://github.com/arquillian/arquillian-algeron#arquillian-alger
 
 Arquillian Algeron provides an integration to publish generated contracts.
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -918,7 +918,7 @@ Arquillian Algeron provides an integration to publish generated contracts.
 </dependency>
 ----
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -928,7 +928,7 @@ Arquillian Algeron provides an integration to publish generated contracts.
 </dependency>
 ----
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -1056,7 +1056,7 @@ Documentation: https://github.com/arquillian/arquillian-container-chameleon
 
 ==== Arquillian APE NoSQL MongoDB
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -1080,7 +1080,7 @@ Documentation: https://github.com/arquillian/arquillian-container-chameleon
 
 ==== Arquillian APE NoSQL Redis
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -1104,7 +1104,7 @@ Documentation: https://github.com/arquillian/arquillian-container-chameleon
 
 ==== Arquillian APE NoSQL Couchbase
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -1128,7 +1128,7 @@ Documentation: https://github.com/arquillian/arquillian-container-chameleon
 
 ==== Arquillian APE REST Postman
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -1140,7 +1140,7 @@ Documentation: https://github.com/arquillian/arquillian-container-chameleon
 
 ==== Arquillian APE SQL Container DBUnit
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
@@ -1152,7 +1152,7 @@ Documentation: https://github.com/arquillian/arquillian-container-chameleon
 
 ==== Arquillian APE SQL Standalone DBUnit
 
-[source, java]
+[source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
