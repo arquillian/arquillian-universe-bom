@@ -15,7 +15,7 @@ Include the following snippet in your POM xml file:
 [source, xml]
 ----
 <properties>
-    <version.arquillian_universe>1.1.13.2</version.arquillian_universe>
+    <version.arquillian_universe>1.1.13.3</version.arquillian_universe>
 </properties>
 
 <dependencyManagement>
