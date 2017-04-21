@@ -310,6 +310,12 @@
       </dependency>
       <dependency>
         <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-ape-nosql-vault</artifactId>
+        <version>${project.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.arquillian.universe</groupId>
         <artifactId>arquillian-ape-nosql-redis</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
@@ -329,6 +335,18 @@
       <dependency>
         <groupId>org.arquillian.universe</groupId>
         <artifactId>arquillian-ape-sql-standalone-dbunit</artifactId>
+        <version>${project.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-ape-sql-standalone-flyway</artifactId>
+        <version>${project.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-ape-junit-rule</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
       </dependency>

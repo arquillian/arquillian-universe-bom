@@ -1126,6 +1126,30 @@ Documentation: https://github.com/arquillian/arquillian-container-chameleon
 </dependency>
 ----
 
+==== Arquillian APE NoSQL Vault
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-ape-nosql-vault</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+===== Additional required dependencies
+
+[source, xml]
+----
+<dependency>
+    <groupId>com.bettercloud</groupId>
+    <artifactId>vault-java-driver</artifactId>
+    <scope>test</scope>
+    <version>2.0.0</version>
+</dependency>
+----
+
 ==== Arquillian APE REST Postman
 
 [source, xml]
@@ -1157,6 +1181,30 @@ Documentation: https://github.com/arquillian/arquillian-container-chameleon
 <dependency>
     <groupId>org.arquillian.universe</groupId>
     <artifactId>arquillian-ape-sql-standalone-dbunit</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian APE SQL Standalone Flyway
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-ape-sql-standalone-flyway</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian JUnit Rule
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-ape-junit-rule</artifactId>
     <scope>test</scope>
     <type>pom</type>
 </dependency>
