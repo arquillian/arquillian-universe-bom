@@ -350,6 +350,12 @@
         <version>${project.version}</version>
         <type>pom</type>
       </dependency>
+      <dependency>
+        <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-rusheye</artifactId>
+        <version>${project.version}</version>
+        <type>pom</type>
+      </dependency>
     </dependencies>
 
   </dependencyManagement>
