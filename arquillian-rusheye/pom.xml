@@ -12,21 +12,12 @@
   <artifactId>arquillian-rusheye</artifactId>
   <name>Arquillian Rusheye</name>
   <packaging>pom</packaging>
-
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.arquillian.rusheye</groupId>
-        <artifactId>rusheye-impl</artifactId>
-        <version>${version.rusheye}</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-
+  
   <dependencies>
     <dependency>
       <groupId>org.arquillian.rusheye</groupId>
       <artifactId>rusheye-impl</artifactId>
+      <version>${version.rusheye}</version>
     </dependency>
   </dependencies>
 </project>
