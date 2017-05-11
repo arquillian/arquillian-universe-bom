@@ -69,13 +69,13 @@
     <version.arquillian_spacelift>1.0.0</version.arquillian_spacelift>
     <version.arquillian_chameleon>1.0.0.Beta2</version.arquillian_chameleon>
     <version.arquillian_cukes_in_space>1.6.5</version.arquillian_cukes_in_space>
-    <version.ape>2.0.0-alpha.2</version.ape>
+    <version.ape>2.0.0-alpha.3</version.ape>
     <version.shrinkwrap>1.2.6</version.shrinkwrap>
     <version.shrinkwrap_descriptors>2.0.0</version.shrinkwrap_descriptors>
     <version.shrinkwrap_resolvers>3.0.0-alpha-4</version.shrinkwrap_resolvers>
     <version.selenium>3.3.1</version.selenium>
     <version.dbunit>2.5.3</version.dbunit>
-    <version.nosqlunit>1.0.0-rc.4</version.nosqlunit>
+    <version.nosqlunit>1.0.0-rc.5</version.nosqlunit>
     <version.flyway>4.1.2</version.flyway>
     <version.rusheye>1.0.0</version.rusheye>
   </properties>
