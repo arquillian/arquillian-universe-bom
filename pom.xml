@@ -52,11 +52,11 @@
 
   <properties>
     <version.arquillian_core>1.1.13.Final</version.arquillian_core>
-    <version.arquillian_drone>2.1.0.Beta1</version.arquillian_drone>
+    <version.arquillian_drone>2.1.1</version.arquillian_drone>
     <version.arquillian_cube>1.3.0</version.arquillian_cube>
     <version.arquillian_cube_q>1.0.0.Alpha3</version.arquillian_cube_q>
     <version.arquillian_algeron>1.0.0.Alpha6</version.arquillian_algeron>
-    <version.arquillian_graphene>2.2.0</version.arquillian_graphene>
+    <version.arquillian_graphene>2.2.1</version.arquillian_graphene>
     <version.arquillian_warp>1.0.0.Alpha8</version.arquillian_warp>
     <version.arquillian_transaction>1.0.4</version.arquillian_transaction>
     <version.arquillian_persistence>1.0.0.Alpha7</version.arquillian_persistence>
@@ -72,8 +72,8 @@
     <version.ape>2.0.0-alpha.3</version.ape>
     <version.shrinkwrap>1.2.6</version.shrinkwrap>
     <version.shrinkwrap_descriptors>2.0.0</version.shrinkwrap_descriptors>
-    <version.shrinkwrap_resolvers>3.0.0-alpha-4</version.shrinkwrap_resolvers>
-    <version.selenium>3.3.1</version.selenium>
+    <version.shrinkwrap_resolvers>3.0.0-beta-1</version.shrinkwrap_resolvers>
+    <version.selenium>3.4.0</version.selenium>
     <version.dbunit>2.5.3</version.dbunit>
     <version.nosqlunit>1.0.0-rc.5</version.nosqlunit>
     <version.flyway>4.1.2</version.flyway>
