@@ -32,7 +32,6 @@
     <dependency>
       <groupId>org.arquillian.rusheye</groupId>
       <artifactId>rusheye-impl</artifactId>
-      <version>${version.rusheye}</version>
     </dependency>
   </dependencies>
 </project>
