@@ -52,11 +52,11 @@
 
   <properties>
     <version.arquillian_core>1.1.13.Final</version.arquillian_core>
-    <version.arquillian_drone>2.1.1</version.arquillian_drone>
-    <version.arquillian_cube>1.4.0</version.arquillian_cube>
+    <version.arquillian_drone>2.4.1</version.arquillian_drone>
+    <version.arquillian_cube>1.8.0</version.arquillian_cube>
     <version.arquillian_cube_q>1.0.0.Alpha3</version.arquillian_cube_q>
-    <version.arquillian_algeron>1.0.0</version.arquillian_algeron>
-    <version.arquillian_graphene>2.2.1</version.arquillian_graphene>
+    <version.arquillian_algeron>1.0.1</version.arquillian_algeron>
+    <version.arquillian_graphene>2.3.1</version.arquillian_graphene>
     <version.arquillian_warp>1.0.0.Alpha8</version.arquillian_warp>
     <version.arquillian_transaction>1.0.4</version.arquillian_transaction>
     <version.arquillian_persistence>1.0.0.Alpha7</version.arquillian_persistence>
@@ -66,10 +66,10 @@
     <version.arquillian_recorder>1.1.6.Final</version.arquillian_recorder>
     <version.arquillian_governor>1.0.4.Final</version.arquillian_governor>
     <version.arquillian_rest>1.0.0.Alpha4</version.arquillian_rest>
-    <version.arquillian_spacelift>1.0.0</version.arquillian_spacelift>
+    <version.arquillian_spacelift>1.0.2</version.arquillian_spacelift>
     <version.arquillian_chameleon>1.0.0.Beta2</version.arquillian_chameleon>
     <version.arquillian_cukes_in_space>1.6.5</version.arquillian_cukes_in_space>
-    <version.ape>2.0.0-alpha.3</version.ape>
+    <version.ape>2.0.0-alpha.4</version.ape>
     <version.shrinkwrap>1.2.6</version.shrinkwrap>
     <version.shrinkwrap_descriptors>2.0.0</version.shrinkwrap_descriptors>
     <version.shrinkwrap_resolvers>3.0.0-beta-1</version.shrinkwrap_resolvers>
