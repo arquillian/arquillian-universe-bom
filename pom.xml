@@ -51,7 +51,7 @@
   </developers>
 
   <properties>
-    <version.arquillian_core>1.1.14.Final</version.arquillian_core>
+    <version.arquillian_core>1.1.15.Final</version.arquillian_core>
     <version.arquillian_drone>2.4.5</version.arquillian_drone>
     <version.arquillian_cube>1.9.2</version.arquillian_cube>
     <version.arquillian_cube_q>1.0.0.Alpha3</version.arquillian_cube_q>
