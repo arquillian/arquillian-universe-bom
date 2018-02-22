@@ -53,7 +53,7 @@
   <properties>
     <version.arquillian_core>1.2.0.Final</version.arquillian_core>
     <version.arquillian_drone>2.4.5</version.arquillian_drone>
-    <version.arquillian_cube>1.13.0</version.arquillian_cube>
+    <version.arquillian_cube>1.15.1</version.arquillian_cube>
     <version.arquillian_cube_q>1.0.0.Alpha3</version.arquillian_cube_q>
     <version.arquillian_algeron>1.0.1</version.arquillian_algeron>
     <version.arquillian_graphene>2.3.2</version.arquillian_graphene>
@@ -124,9 +124,12 @@
     <module>arquillian-chameleon</module>
     <module>arquillian-cube-core</module>
     <module>arquillian-cube-docker</module>
+    <module>arquillian-cube-docker-starter</module>
     <module>arquillian-cube-openshift</module>
+    <module>arquillian-cube-openshift-starter</module>
     <module>arquillian-cube-containerless</module>
     <module>arquillian-cube-kubernetes</module>
+    <module>arquillian-cube-kubernetes-starter</module>
     <module>arquillian-cube-docker-restassured</module>
     <module>arquillian-cukes</module>
     <module>arquillian-cube-q-pumba</module>

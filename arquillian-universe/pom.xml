@@ -244,6 +244,12 @@
       </dependency>
       <dependency>
         <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-cube-docker-starter</artifactId>
+        <version>${project.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.arquillian.universe</groupId>
         <artifactId>arquillian-cube-docker-restassured</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
@@ -256,7 +262,19 @@
       </dependency>
       <dependency>
         <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-cube-kubernetes-starter</artifactId>
+        <version>${project.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.arquillian.universe</groupId>
         <artifactId>arquillian-cube-openshift</artifactId>
+        <version>${project.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.arquillian.universe</groupId>
+        <artifactId>arquillian-cube-openshift-starter</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
       </dependency>

@@ -697,6 +697,22 @@ Documentation: https://github.com/arquillian/arquillian-cube
 </dependency>
 ----
 
+==== Arquillian Cube Docker Starter
+
+Arquillian Cube Docker Starter is single unified dependency to use Arquillian Cube Docker in standalone mode
+
+Documentation: https://github.com/arquillian/arquillian-cube
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cube-docker-starter</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
 ==== Arquillian Cube Docker REST Assured
 
 Arquillian Cube is an Arquillian extension that can be used to manager Docker containers from Arquillian and can be integrated with REST Assured
@@ -729,13 +745,29 @@ Documentation: http://arquillian.org/arquillian-cube/#_rest_assured_integration
 
 Arquillian Cube is an Arquillian extension that can be used to manager Docker containers from Arquillian.
 
-Documentation: https://github.com/arquillian/arquillian-cube
+Documentation: http://arquillian.org/arquillian-kube
 
 [source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
     <artifactId>arquillian-cube-openshift</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Cube OpenShift Starter
+
+Arquillian Cube Openshift Starter is single unified dependency to use Arquillian Cube Openshift in standalone mode
+
+Documentation: http://arquillian.org/arquillian-kube
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cube-openshift-starter</artifactId>
     <scope>test</scope>
     <type>pom</type>
 </dependency>
@@ -763,13 +795,29 @@ Documentation: https://github.com/arquillian/arquillian-cube#containerless-serve
 
 Arquillian Cube Kubernetes is an Arquillian extension that can be used to manager Kubernetes elements from Arquillian.
 
-Documentation: http://arquillian.org/arquillian-cube/#_kubernetes
+Documentation: http://arquillian.org/arquillian-kube
 
 [source, xml]
 ----
 <dependency>
     <groupId>org.arquillian.universe</groupId>
     <artifactId>arquillian-cube-kubernetes</artifactId>
+    <scope>test</scope>
+    <type>pom</type>
+</dependency>
+----
+
+==== Arquillian Cube Kubernetes Starter
+
+Arquillian Cube Kubernetes Starter is single unified dependency to use Arquillian Cube Kubernetes in standalone mode
+
+Documentation: http://arquillian.org/arquillian-kube
+
+[source, xml]
+----
+<dependency>
+    <groupId>org.arquillian.universe</groupId>
+    <artifactId>arquillian-cube-kubernetes-starter</artifactId>
     <scope>test</scope>
     <type>pom</type>
 </dependency>
