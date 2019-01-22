@@ -67,7 +67,7 @@
     <version.arquillian_governor>1.0.4.Final</version.arquillian_governor>
     <version.arquillian_rest>1.0.0.Alpha4</version.arquillian_rest>
     <version.arquillian_spacelift>1.0.2</version.arquillian_spacelift>
-    <version.arquillian_chameleon>1.0.0.CR2</version.arquillian_chameleon>
+    <version.arquillian_chameleon>1.0.0.CR4</version.arquillian_chameleon>
     <version.arquillian_cukes_in_space>1.6.7</version.arquillian_cukes_in_space>
     <version.ape>2.0.0-alpha.7</version.ape>
     <version.shrinkwrap>1.2.6</version.shrinkwrap>
