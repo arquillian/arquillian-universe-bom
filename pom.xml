@@ -76,7 +76,7 @@
     <version.selenium>3.7.1</version.selenium>
     <version.dbunit>2.5.3</version.dbunit>
     <version.nosqlunit>1.0.0</version.nosqlunit>
-    <version.flyway>4.1.2</version.flyway>
+    <version.flyway>6.5.3</version.flyway>
     <version.rusheye>1.0.0</version.rusheye>
   </properties>
 
